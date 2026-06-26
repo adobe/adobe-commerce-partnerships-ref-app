@@ -1,4 +1,4 @@
-# Bridge
+# adobe-commerce-partnerships-ref-app
 
 A Next.js ordering interface for Adobe direct partners, built on VIP Marketplace (VIP MP) APIs.
 
@@ -38,7 +38,7 @@ A Next.js ordering interface for Adobe direct partners, built on VIP Marketplace
 
 ```bash
 git clone <repository-url>
-cd bridge
+cd adobe-commerce-partnerships-ref-app
 npm install
 cp .env.sample .env
 ```
@@ -109,8 +109,8 @@ node server.js
 ## Docker
 
 ```bash
-docker build -t bridge .
-docker run --env-file .env -p 9000:9000 bridge
+docker build -t adobe-commerce-partnerships-ref-app .
+docker run --env-file .env -p 9000:9000 adobe-commerce-partnerships-ref-app
 ```
 
 A `docker-compose.yml` is also provided:
@@ -122,7 +122,7 @@ docker compose up
 ## Project Structure
 
 ```
-bridge/
+adobe-commerce-partnerships-ref-app/
 ├── pages/            # Next.js pages and API routes
 │   └── api/          # API endpoints (thin controllers — parse, auth, delegate)
 ├── components/       # Reusable React UI components
@@ -140,7 +140,7 @@ bridge/
 
 ## Architecture
 
-Bridge follows an MVC pattern adapted for Next.js. See [ARCHITECTURE.md](ARCHITECTURE.md) for a full breakdown of the layers, error handling strategy, and how to extend the application.
+adobe-commerce-partnerships-ref-app follows an MVC pattern adapted for Next.js. See [ARCHITECTURE.md](ARCHITECTURE.md) for a full breakdown of the layers, error handling strategy, and how to extend the application.
 
 ## Contributing
 
