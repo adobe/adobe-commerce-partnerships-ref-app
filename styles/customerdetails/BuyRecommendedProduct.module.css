@@ -1,0 +1,224 @@
+/* BuyRecommendedProduct Component Styles */
+
+/* ===== MODAL OVERLAY ===== */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* ===== MODAL DIALOG ===== */
+.modal {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 32px;
+  width: 454px;
+  min-width: 288px;
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  box-shadow:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* ===== HEADER SECTION ===== */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+/* ===== HEADER LEFT SECTION ===== */
+.headerLeft {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* ===== PRODUCT ICON ===== */
+.productIcon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+/* ===== PRODUCT ICON FALLBACK ===== */
+.productIconFallback {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 50%, #45b7d1 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* ===== MODAL TITLE ===== */
+.modalTitle {
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}
+
+/* ===== CUSTOMER INFO PILL ===== */
+.customerInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #f3f4f6;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+/* ===== CUSTOMER NAME ===== */
+.customerName {
+  font-family: inherit;
+  font-size: 14px;
+  color: #374151;
+  font-weight: 500;
+}
+
+/* ===== CLOSE BUTTON ===== */
+.closeButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.closeButton:hover {
+  background-color: #f3f4f6;
+}
+
+/* ===== CONTENT OPTIONS ===== */
+/* ===== OPTIONS CONTAINER ===== */
+.optionsContainer {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+/* ===== OPTION CARD (UNSELECTED) ===== */
+.optionCard {
+  flex: 1;
+  padding: 20px;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #ffffff;
+  transition: all 0.2s ease;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* ===== OPTION CARD (SELECTED) ===== */
+.optionCardSelected {
+  flex: 1;
+  padding: 20px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #f9fafb;
+  transition: all 0.2s ease;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* ===== OPTION TITLE ===== */
+.optionTitle {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 8px 0;
+}
+
+/* ===== OPTION DESCRIPTION ===== */
+.optionDescription {
+  font-family: inherit;
+  font-size: 14px;
+  color: #6b7280;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* ===== ACTION BUTTONS ===== */
+/* ===== ACTION BUTTONS CONTAINER ===== */
+.actionButtons {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+/* ===== CANCEL BUTTON ===== */
+.cancelButton {
+  width: 72px;
+  height: 32px;
+  min-width: 72px;
+  opacity: 1;
+  border-radius: 16px;
+  border-width: 2px;
+  border: 2px solid var(--Palette-gray-300, #dadada);
+  background-color: white;
+  color: var(--Palette-gray-800, #292929);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.cancelButton:hover {
+  background-color: #f9fafb;
+}
+
+/* ===== CONTINUE BUTTON ===== */
+.continueButton {
+  width: 86px;
+  height: 32px;
+  min-width: 72px;
+  opacity: 1;
+  border-radius: 16px;
+  background-color: var(--Alias-background-semantic-accent-default, #3b63fb);
+  color: white;
+  border: none;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.continueButton:hover {
+  background-color: #1d4ed8;
+}

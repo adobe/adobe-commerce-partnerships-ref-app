@@ -1,0 +1,1311 @@
+{
+  "All Apps - Edition 3 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/cc_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/cc_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/cc_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/cc_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Audition - Edition 3 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/au_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/au_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/au_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/au_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "After Effects - Edition 3 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ae_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ae_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ae_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ae_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Animate - Edition 3 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/an_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/an_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/an_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/an_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Dimension - Edition 3 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/dn_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/dn_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/dn_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/dn_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Dreamweaver - Edition 3 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/dw_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/dw_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/dw_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/dw_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "InCopy - Edition 3 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ic_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ic_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ic_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ic_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "InDesign - Edition 3 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/id_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/id_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/id_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/id_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Illustrator - Edition 3 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ai_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ai_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ai_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ai_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Lightroom - Edition 3 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/lr_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/lr_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/lr_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/lr_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Photoshop - Edition 3 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ps_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ps_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ps_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ps_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Premiere Pro - Edition 3 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/pr_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/pr_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/pr_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/pr_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Adobe XD - Edition 3 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/xd_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/xd_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/xd_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/xd_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "AI Assistant for Acrobat for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/acrobat_reader_appicon_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/acrobat_reader_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/acrobat_reader_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/acrobat_reader_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Document Cloud"
+  },
+  "AI Assistant for Acrobat for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/acrobat_reader_appicon_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/acrobat_reader_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/acrobat_reader_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/acrobat_reader_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Document Cloud"
+  },
+  "Acrobat Classic 2024 for Enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/acrobat_pro_appicon_noshadow_48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/acrobat_pro_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/acrobat_pro_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/acrobat_pro_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Document Cloud"
+  },
+  "Acrobat Classic 2024 for Teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/acrobat_pro_appicon_noshadow_48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/acrobat_pro_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/acrobat_pro_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/acrobat_pro_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Document Cloud"
+  },
+  "Acrobat Classic 2024 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/acrobat_pro_appicon_noshadow_48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/acrobat_pro_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/acrobat_pro_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/acrobat_pro_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Document Cloud"
+  },
+  "Acrobat Services API for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/acrobat_reader_appicon_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/acrobat_reader_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/acrobat_reader_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/acrobat_reader_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Document Cloud"
+  },
+  "Adobe Express for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/adobeexpress_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/adobeexpress_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/adobeexpress.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/adobeexpress_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Adobe Audition for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/au_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/au_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/au_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/au_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Acrobat Pro for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/acrobat_reader_appicon_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/acrobat_reader_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/acrobat_reader_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/acrobat_reader_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Document Cloud"
+  },
+  "Creative Cloud for teams All Apps": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/cc_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/cc_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/cc_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/cc_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "After Effects for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ae_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ae_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ae_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ae_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "InCopy for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ic_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ic_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ic_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ic_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Captivate for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/captivate-no-shadow-48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/captivate_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/captivate.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/captivate-128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Adobe TechnicalSuit for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/tsc_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/tsc_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/tsc_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/tsc_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Creative Cloud for teams All Apps with Adobe Stock": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/cc_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/cc_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/cc_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/cc_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Acrobat Standard for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/acrobat_reader_appicon_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/acrobat_reader_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/acrobat_reader_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/acrobat_reader_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Document Cloud"
+  },
+  "Dreamweaver for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/dw_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/dw_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/dw_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/dw_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Adobe Fresco for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/fr_appicon_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/fr_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/fr_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/fr_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Photoshop for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ps_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ps_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ps_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ps_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Adobe XD for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/xd_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/xd_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/xd_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/xd_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Illustrator for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ai_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ai_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ai_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ai_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Adobe Stock for teams (Large)": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/st_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/st_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/st_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/st_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Adobe Stock for teams (Small)": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/st_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/st_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/st_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/st_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Adobe Stock for teams (Other)": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/st_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/st_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/st_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/st_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Lightroom w Classic for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/lr_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/lr_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/lr_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/lr_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "FrameMaker for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/fm_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/fm_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/fm_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/fm_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Adobe Premiere Pro for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/pr_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/pr_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/pr_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/pr_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "InDesign for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/id_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/id_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/id_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/id_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Adobe Dimension for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/dn_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/dn_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/dn_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/dn_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Animate / Flash Professional for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/an_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/an_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/an_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/an_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Acrobat Sign for small business": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/adobe_sign_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/adobe_sign_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/adobe_sign_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/adobe_sign_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Document Cloud"
+  },
+  "RoboHelp Office for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/rh_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/rh_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/rh_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/rh_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Substance 3D Collection for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/substance_bundle_premium_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/substance_bundle_premium_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/substance_bundle_premium_svg.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/substance_bundle_premium_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Acrobat Sign Solutions for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/adobe_sign_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/adobe_sign_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/adobe_sign_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/adobe_sign_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Document Cloud"
+  },
+  "RoboHelp Server for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/rh_server_appicon_noshadow_48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/rh_server_appicon_noshadow_16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/rh_server_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/rh_server_appicon_noshadow_128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Acrobat Sign Solutions for business": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/adobe_sign_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/adobe_sign_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/adobe_sign_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/adobe_sign_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Document Cloud"
+  },
+  "FrameMaker Pub Servr for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/fm_server_appicon_noshadow_48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/fm_server_appicon_noshadow_16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/fm_server_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/fm_server_appicon_noshadow_128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Adobe Fresco for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/fr_appicon_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/fr_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/fr_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/fr_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Acrobat Standard for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/acrobat_reader_appicon_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/acrobat_reader_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/acrobat_reader_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/acrobat_reader_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Document Cloud"
+  },
+  "Acrobat Pro for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/acrobat_reader_appicon_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/acrobat_reader_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/acrobat_reader_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/acrobat_reader_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Document Cloud"
+  },
+  "RoboHelp Office for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/rh_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/rh_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/rh_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/rh_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "FrameMaker for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/fm_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/fm_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/fm_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/fm_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Captivate for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/captivate-no-shadow-48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/captivate_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/captivate.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/captivate-128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Adobe TechnicalSuit for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/tsc_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/tsc_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/tsc_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/tsc_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Substance 3D Collection for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/substance_bundle_premium_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/substance_bundle_premium_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/substance_bundle_premium_svg.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/substance_bundle_premium_128x128.png?api_key=preview_svc",
+      "64x64": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/64x64/substance_bundle_premium_64x64.png?api_key=preview_svc",
+      "50x50": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/50x50/substance_bundle_premium_50x50.png?api_key=preview_svc",
+      "150x150": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/150x150/substance_bundle_premium_150x150.png?api_key=preview_svc",
+      "32x32": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/32x32/substance_bundle_premium_32x32.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Adobe Express for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/adobeexpress_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/adobeexpress_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/adobeexpress.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/adobeexpress_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Lightroom - Edition 4 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/lr_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/lr_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/lr_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/lr_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Adobe XD - Pro for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/xd_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/xd_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/xd_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/xd_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Dimension - Edition 4 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/dn_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/dn_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/dn_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/dn_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Premiere Pro - Pro for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/pr_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/pr_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/pr_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/pr_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Animate - Pro for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/an_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/an_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/an_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/an_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Lightroom - Pro for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/lr_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/lr_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/lr_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/lr_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "After Effects - Edition 4 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ae_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ae_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ae_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ae_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Illustrator - Edition 4 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ai_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ai_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ai_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ai_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Adobe XD - Edition 4 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/xd_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/xd_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/xd_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/xd_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Dreamweaver - Edition 4 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/dw_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/dw_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/dw_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/dw_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Photoshop - Edition 4 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ps_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ps_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ps_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ps_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Photoshop - Pro for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ps_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ps_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ps_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ps_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Dimension - Pro for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/dn_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/dn_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/dn_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/dn_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Dreamweaver - Pro for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/dw_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/dw_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/dw_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/dw_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Audition - Edition 4 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/au_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/au_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/au_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/au_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Audition - Pro for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/au_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/au_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/au_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/au_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "InCopy - Pro for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ic_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ic_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ic_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ic_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Illustrator - Pro for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ai_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ai_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ai_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ai_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Animate - Edition 4 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/an_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/an_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/an_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/an_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "InDesign - Edition 4 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/id_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/id_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/id_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/id_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "After Effects - Pro for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ae_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ae_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ae_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ae_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "InDesign - Pro for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/id_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/id_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/id_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/id_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Premiere Pro - Edition 4 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/pr_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/pr_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/pr_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/pr_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Creative Cloud All Apps - Edition 4 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/cc_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/cc_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/cc_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/cc_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "CC All Apps - Pro for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/cc_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/cc_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/cc_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/cc_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Stock Credit Pack for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/st_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/st_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/st_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/st_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Stock Credit Pack for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/st_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/st_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/st_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/st_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "InCopy - Edition 4 for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ic_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ic_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ic_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ic_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "InDesign Server for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/id_server_appicon_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/id_server_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/id_server_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/id_server_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "ColdFusion Standard for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/coldfusion_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/coldfusion_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/coldfusion_svg.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/coldfusion_128x128.png?api_key=preview_svc"
+    }
+  },
+  "2,000 Monthly Generative Credits for Teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_noshadow_48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_noshadow_16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_noshadow_128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "7,000 Monthly Generative Credits for Teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_noshadow_48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_noshadow_16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_noshadow_128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "50,000 Monthly Generative Credits for Enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_noshadow_48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_noshadow_16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_noshadow_128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Technical Suite for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/framemaker-server-no-shadow-48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/framemaker-server-16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/framemaker-server.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/framemaker-server-128x128.png?api_key=preview_svc"
+    }
+  },
+  "PHSP & PREM Elements 2026": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/phepre-48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/phepre-16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/phepre.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/phepre-128x128.png?api_key=preview_svc"
+    }
+  },
+  "Premiere Pro for teams with Adobe Stock standard assets": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/pr_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/pr_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/pr_appicon_256x256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/pr_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "2,000 Monthly Generative Credits for Enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_noshadow_48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_noshadow_16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_noshadow_128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "50,000 Monthly Generative Credits for Teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_noshadow_48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_noshadow_16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_noshadow_128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "7,000 Monthly Generative Credits for Enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_noshadow_48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_noshadow_16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/generativeCredits_appicon_noshadow_128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Acrobat Pro 2024 for Enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/acrobat_pro_appicon_noshadow_48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/acrobat_pro_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/acrobat_pro_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/acrobat_pro_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Document Cloud"
+  },
+  "Acrobat Pro 2024 for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/acrobat_pro_appicon_noshadow_48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/acrobat_pro_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/acrobat_pro_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/acrobat_pro_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Document Cloud"
+  },
+  "Acrobat Studio for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/acrobat_reader_appicon_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/acrobat_reader_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/acrobat_reader_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/acrobat_reader_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Document Cloud"
+  },
+  "Acrobat Studio for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/acrobat_reader_appicon_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/acrobat_reader_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/acrobat_reader_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/acrobat_reader_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Document Cloud"
+  },
+  "ColdFusion Ent for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/coldfusion_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/coldfusion_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/coldfusion_svg.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/coldfusion_128x128.png?api_key=preview_svc"
+    }
+  },
+  "Adobe Audition for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/au_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/au_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/au_appicon_256x256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/au_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Adobe Dimension for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/dn_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/dn_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/dn_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/dn_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Adobe Premiere Pro for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/pr_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/pr_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/pr_appicon_256x256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/pr_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Adobe XD for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/xd_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/xd_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/xd_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/xd_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Adobe XD for teams with Adobe Stock standard assets": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/xd_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/xd_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/xd_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/xd_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "After Effects for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ae_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ae_appicon_noshadow_16x16-16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ae_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ae_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "After Effects for teams with Adobe Stock standard assets": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ae_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ae_appicon_noshadow_16x16-16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ae_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ae_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Animate / Flash Professional for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/an_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/an_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/an_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/an_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Animate for teams with Adobe Stock standard assets": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/an_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/an_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/an_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/an_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Audition for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/au_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/au_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/au_appicon_256x256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/au_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Audition for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/au_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/au_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/au_appicon_256x256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/au_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Audition for teams with Adobe Stock standard assets": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/au_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/au_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/au_appicon_256x256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/au_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Creative Cloud for enterprise All Apps": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/cc_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/cc_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/cc_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/cc_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": ""
+  },
+  "Creative Cloud for enterprise complete": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/cc_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/cc_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/cc_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/cc_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Creative Cloud Pro for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/cc_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/cc_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/cc_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/cc_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Creative Cloud Pro for teams with Adobe Stock": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/cc_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/cc_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/cc_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/cc_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Creative Cloud Pro Plus for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/cc_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/cc_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/cc_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/cc_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Creative Cloud Pro Plus for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/cc_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/cc_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/cc_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/cc_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Dimension for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/dn_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/dn_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/dn_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/dn_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Dimension for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/dn_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/dn_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/dn_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/dn_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Dimension for teams with Adobe Stock standard assets": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/dn_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/dn_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/dn_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/dn_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Dreamweaver for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/dw_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/dw_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/dw_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/dw_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Dreamweaver for teams with Adobe Stock standard assets": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/dw_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/dw_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/dw_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/dw_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Illustrator for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ai_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ai_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ai_appicon_256x256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ai_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Illustrator for teams with Adobe Stock standard assets": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ai_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ai_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ai_appicon_256x256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ai_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "InCopy for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ic_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ic_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ic_appicon_256x256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ic_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "InCopy for teams with Adobe Stock standard assets": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ic_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ic_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ic_appicon_256x256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ic_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "InDesign for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/id_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/id_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/id_appicon_256x256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/id_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "InDesign for teams with Adobe Stock standard assets": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/id_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/id_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/id_appicon_256x256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/id_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": ""
+  },
+  "Lightroom for teams with Adobe Stock standard assets": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/lr_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/lr_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/lr_appicon_256x256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/lr_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Lightroom w Classic for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/lr_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/lr_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/lr_appicon_256x256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/lr_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": ""
+  },
+  "Photoshop Elements 2026": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ph-elements-48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ph-elements-16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ph-elements.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ph-elements-128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": ""
+  },
+  "Photoshop for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ps_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ps_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ps_appicon_256x256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ps_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Photoshop for teams with Adobe Stock standard assets": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/ps_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/ps_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/ps_appicon_256x256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/ps_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Premiere Elements 2026": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/premiere-elements-no-shadow-48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/premiere-elements-16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/pr-elements.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/premiere-elements-128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": ""
+  },
+  "Premiere Pro for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/pr_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/pr_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/pr_appicon_256x256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/pr_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Premiere Pro for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/pr_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/pr_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/pr_appicon_256x256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/pr_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Substance 3D Assets for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/substance_source_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/substance_source_no_shadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/substance_source.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/substance_source_noshadow_128x128.png?api_key=preview_svc",
+      "64x64": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/64x64/substance_source_noshadow_64x64.png?api_key=preview_svc",
+      "50x50": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/50x50/substance_source_noshadow_50x50.png?api_key=preview_svc",
+      "150x150": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/150x150/substance_source_noshadow_150x150.png?api_key=preview_svc",
+      "32x32": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/32x32/substance_source_noshadow_32x32.png?api_key=preview_svc"
+    },
+    "cloudCategory": ""
+  },
+  "Technical Suite for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/tsc_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/tsc_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/tsc_appicon_256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/tsc_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": ""
+  },
+  "Fresco for enterprise": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/fr_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/fr_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/fr_appicon_256x256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/fr_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "Fresco for teams": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/fr_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/fr_appicon_noshadow_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/fr_appicon_256x256.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/fr_appicon_noshadow_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  },
+  "CC All Apps for teams- Stage Only": {
+    "icons": {
+      "48x48": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/48x48/cc_appicon_noshadow_48x48.png?api_key=preview_svc",
+      "16x16": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/16x16/cc_appicon_16x16.png?api_key=preview_svc",
+      "svg": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/svg/cc_appicon.svg?api_key=preview_svc",
+      "128x128": "https://mcs.adobe.io/assets/content/dam/mcs/en/icons/raw/128x128/cc_appicon_128x128.png?api_key=preview_svc"
+    },
+    "cloudCategory": "Creative Cloud"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "root": true,
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_" }
+    ],
+    "react-hooks/exhaustive-deps": "warn",
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-img-element": "off"
+  },
+  "overrides": [
+    {
+      "files": ["server.js"],
+      "rules": {
+        "no-console": "off",
+        "@typescript-eslint/no-require-imports": "off"
+      }
+    },
+    {
+      "files": ["tests/**/*", "jest.setup.js", "jest.config.js"],
+      "env": { "jest": true, "node": true },
+      "rules": {
+        "no-console": "off",
+        "@typescript-eslint/no-require-imports": "off"
+      }
+    }
+  ]
+}

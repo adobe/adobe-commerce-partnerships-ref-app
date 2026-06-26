@@ -1,0 +1,172 @@
+/* Loading Overlay Styles */
+.loadingOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  backdrop-filter: blur(2px);
+}
+
+.loadingContent {
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.loadingText {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  color: #292929;
+  text-align: center;
+  margin-top: 16px;
+}
+
+/* TextField Wrapper Styles */
+.textFieldWrapper {
+  width: 500px;
+}
+
+.textFieldWrapperSmall {
+  width: 250px;
+}
+
+/* Picker Wrapper Styles */
+.pickerWrapper {
+  width: 220px;
+}
+
+/* Postal Code Field */
+.postalCodeField {
+  width: 250px;
+}
+
+/* Reseller ID Wrapper */
+.resellerIdWrapper {
+  width: 220px;
+}
+
+/* Checkbox Wrapper */
+.checkboxWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.newCustomerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  min-height: 350px;
+  padding-left: 0;
+  justify-content: flex-start;
+}
+
+.formFields {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  padding-left: 30px; /* Align with red line */
+}
+
+.formRow {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  width: 100%;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.formRow:last-child {
+  margin-bottom: 20px;
+}
+
+.countryStateGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  width: 500px;
+}
+
+.adminLeftGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  width: 500px;
+}
+
+.fieldGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
+.fieldLabel {
+  width: 224px;
+  height: 20px;
+  opacity: 1;
+  transform: rotate(0deg);
+  font-family: inherit;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: normal;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+}
+
+/* Checkbox Styles */
+.checkboxGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.checkboxLabel {
+  font-family: inherit;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: normal;
+  color: var(--Alias-content-neutral-default, #292929);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+/* Disclaimer Styles */
+.disclaimerContainer {
+  width: 100%;
+  padding: 16px 30px;
+  margin-bottom: 8px;
+}
+
+.disclaimerText {
+  font-family: inherit;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: normal;
+  color: var(--Alias-content-neutral-default, #292929);
+  margin: 0;
+}

@@ -1,0 +1,357 @@
+/* 3-Year Commit Details Dialog Styles */
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  width: min(90vw, 800px);
+  height: min(70vh, 600px);
+  opacity: 1;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+  gap: 32px;
+  padding-bottom: 0;
+}
+
+.modalTitle {
+  margin: 0;
+  width: 202px;
+  height: 26px;
+  opacity: 1;
+  font-family: inherit;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: var(--Alias-content-typography-heading, #131313);
+  display: flex;
+  align-items: center;
+}
+
+.doneButton {
+  width: 72px;
+  height: 32px;
+  min-width: 72px;
+  opacity: 1;
+  border-radius: 16px;
+  background: var(--Alias-background-semantic-accent-default, #3b63fb);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.doneButton:hover {
+  background: var(--Alias-background-semantic-accent-hover, #2b4fdb);
+}
+
+.doneButtonText {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: Bold;
+  fill: var(--Palette-white, #ffffff);
+  letter-spacing: 0%;
+  opacity: 1;
+}
+
+/* Inline Alert SVG Styles */
+.inlineAlertSvg {
+  width: 100%;
+  height: 123px;
+  margin: 16px 0;
+  position: relative;
+}
+
+.inlineAlertSvg svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 123px !important;
+  transform: scaleX(1);
+  transform-origin: left center;
+}
+
+.inlineAlert {
+  width: calc(100% - 96px);
+  height: auto;
+  min-height: 80px;
+  min-width: 240px;
+  opacity: 1;
+  border-radius: 10px;
+  padding: 12px 16px;
+  gap: 8px;
+  border: 2px solid var(--Alias-content-visual-semantic-informative, #4b75ff);
+  background: var(--Alias-background-app-frame-layer-2, #ffffff);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0 96px 16px 0;
+}
+
+.alertContent {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.alertHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.alertTitle {
+  margin: 0;
+  width: 837px;
+  height: 18px;
+  opacity: 1;
+  font-family: inherit;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: normal;
+  color: var(--Alias-content-typography-heading, #131313);
+}
+
+.alertInfoIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--Alias-content-visual-semantic-informative, #4b75ff);
+}
+
+.alertInfoIcon svg {
+  color: inherit;
+}
+
+.alertInfoIcon svg path {
+  fill: currentColor !important;
+}
+
+.alertDescription {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  font-family: inherit;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: normal;
+  color: var(--Alias-content-typography-body, #292929);
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.alertButton {
+  background: white !important;
+  border: 1px solid #d1d5db !important;
+  color: var(--Palette-transparent-black-800, #000000d6) !important;
+  border-radius: 6px !important;
+  padding: 8px 16px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  cursor: pointer !important;
+  align-self: flex-start !important;
+}
+
+.alertButton:hover {
+  background: #f9fafb !important;
+  border-color: #9ca3af !important;
+}
+
+.modalContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-right: 0;
+  margin-right: 0;
+  box-sizing: border-box;
+}
+
+.commitPendingSection {
+  background: #f0f8ff;
+  border: 1px solid #b3d9ff;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.commitPendingHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.commitPendingTitle {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.infoIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.commitPendingText {
+  margin-bottom: 16px;
+  color: var(--Palette-transparent-black-800, #000000d6);
+  font-size: 14px;
+  line-height: 130%;
+}
+
+.resendButton {
+  background: white !important;
+  border: 1px solid #d1d5db !important;
+  color: var(--Palette-transparent-black-800, #000000d6) !important;
+  border-radius: 6px !important;
+  padding: 8px 16px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+.resendButton:hover {
+  background: #f9fafb !important;
+  border-color: #9ca3af !important;
+}
+
+.commitmentDetailsSection {
+  margin-bottom: 12px;
+}
+
+.commitmentDetailsTitle {
+  margin: 0 0 16px 0;
+  width: 155px;
+  height: 22px;
+  opacity: 1;
+  font-family: inherit;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.commitmentDetailsGrid {
+  display: grid;
+  grid-template-columns: 208px 208px;
+  gap: 48px;
+  margin-top: 16px;
+  align-items: start;
+}
+
+.commitmentDetailItem {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 208px;
+  height: auto;
+  min-width: 48px;
+  min-height: 32px;
+  opacity: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.commitmentDetailLabelContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.commitmentDetailValuesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: -8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: -15px;
+}
+
+.commitmentDetailValuesContainerRight {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: -5px;
+}
+
+.commitmentDetailItemRight {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  width: 208px;
+  height: auto;
+  min-width: 48px;
+  min-height: 32px;
+  opacity: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.commitmentDetailLabel {
+  width: 208px;
+  height: 18px;
+  opacity: 1;
+  font-family: inherit;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: normal;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+}
+
+.commitmentDetailValueLicenses {
+  width: 184px;
+  height: 20px;
+  opacity: 1;
+  font-family: inherit;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: var(--Alias-content-neutral-default, #292929);
+  margin: 0;
+  padding: 0;
+}

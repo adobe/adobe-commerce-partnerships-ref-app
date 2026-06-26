@@ -1,0 +1,145 @@
+/* PromoCodeButton styles */
+.promoCodeButtonRow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.promoCodeButton {
+  background: none;
+  border: none;
+  color: #0066cc;
+  cursor: pointer;
+  text-align: right;
+  font-size: 14px;
+  padding: 0;
+  font-family: inherit;
+  white-space: nowrap;
+}
+
+.promoCodeButton:hover:not(:disabled) {
+  color: #0052a3;
+}
+
+.promoCodeButton:disabled {
+  color: #999;
+  cursor: not-allowed;
+}
+
+.appliedCode {
+  font-weight: 500;
+  white-space: nowrap;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: nowrap;
+}
+
+.appliedCodeLabel {
+  color: #000;
+}
+
+.badgeWrapper {
+  flex-shrink: 0;
+}
+
+.deleteIconButton {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #505050;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deleteIconButton:hover:not(:disabled) {
+  color: #131313;
+}
+
+.deleteIconButton:disabled {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* PromoCodeDialog styles */
+.dialogOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 11000;
+}
+
+.dialog {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  width: min(90vw, 400px);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dialogHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dialogTitle {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #131313;
+}
+
+.dialogContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.productContext {
+  font-size: 14px;
+  color: #505050;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.productName {
+  font-weight: 700;
+}
+
+.offerId {
+  font-size: 12px;
+}
+
+.codeInput {
+  width: 100%;
+}
+
+.errorText {
+  font-size: 14px;
+  color: #e34850;
+}
+
+.dialogActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 8px;
+}

@@ -1,0 +1,100 @@
+/* Sidebar Styles */
+.sidebar {
+  width: 100px;
+  background-color: white;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.navItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.2s ease;
+}
+
+.navItem:hover {
+  transform: scale(1.02);
+}
+
+.navIconContainer {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+
+.navIconActive {
+  background-color: #2d2d2d;
+}
+
+.navIconInactive {
+  background-color: transparent;
+}
+
+.navIconInactive:hover {
+  background-color: #f3f4f6;
+}
+
+.iconColorActive {
+  color: white !important;
+}
+
+.iconColorInactive {
+  color: #2d2d2d !important;
+}
+
+.navLabel {
+  font-size: 14px;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.navLabelActive {
+  color: #000;
+}
+
+.navLabelInactive {
+  color: #2d2d2d;
+}
+
+.navLabelInactive:hover {
+  color: #000;
+}
+
+.largeIcon {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+
+.largeIcon svg {
+  width: 32px;
+  height: 32px;
+  color: inherit;
+}
+
+.largeIcon svg path {
+  fill: currentColor !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 80px;
+  }
+
+  .navLabel {
+    font-size: 12px;
+  }
+}

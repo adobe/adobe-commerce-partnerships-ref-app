@@ -1,0 +1,389 @@
+/* Existing Customer Styles */
+
+/* Inline styles moved to CSS classes */
+.dropdownIconRotated {
+  transform: rotate(180deg);
+  transition: transform 0.2s ease;
+}
+
+.dropdownIconNormal {
+  transform: rotate(0deg);
+  transition: transform 0.2s ease;
+}
+.existingCustomerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  min-height: 350px; /* Use min-height for consistent tab switching */
+  /* Removed overflow-y: auto - let parent modal handle scrolling */
+  padding-left: 30px; /* Align with red line - same as NewCustomer */
+  /* Ensure dropdowns can escape overflow */
+  position: relative;
+  overflow: visible; /* Allow dropdowns to escape */
+}
+
+/* Reseller ID Section Styles */
+.resellerSection {
+  width: 453px;
+  margin-bottom: 16px;
+  opacity: 1;
+  transform: rotate(0deg);
+  position: relative;
+  z-index: 2;
+  /* Prevent overflow clipping to allow dropdown to escape */
+  overflow: visible;
+}
+
+.resellerInputGroup {
+  display: flex;
+  gap: 8px;
+  align-items: flex-end;
+}
+
+.resellerFieldGroup {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.resellerLabel {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+  margin-bottom: 4px;
+  display: block;
+}
+
+.resellerInput {
+  width: 100%;
+}
+
+.resellerInput [class*='spectrum-TextField'] {
+  height: 32px !important;
+  min-height: 32px !important;
+  border-radius: 8px !important;
+  border: 2px solid var(--Palette-gray-300, #dadada) !important;
+  background: var(--Palette-gray-25, #ffffff) !important;
+  opacity: 1 !important;
+}
+
+/* Error state - higher specificity */
+.resellerInput.resellerInputError [class*='spectrum-TextField'] {
+  border: 2px solid #e34850 !important;
+}
+
+.resellerInputError [class*='spectrum-TextField'] {
+  border: 2px solid #e34850 !important;
+}
+
+.resellerInputError div {
+  border-color: #e34850 !important;
+}
+
+.resellerInputError * {
+  border-color: #e34850 !important;
+}
+
+.resellerInput [class*='spectrum-TextField'] input {
+  width: 100% !important;
+  height: 28px !important;
+  border-radius: 6px !important;
+  padding: 0 12px !important;
+  border: none !important;
+  background: transparent !important;
+  outline: none !important;
+}
+
+.resellerInput [class*='spectrum-TextField'] fieldset {
+  border: none !important;
+}
+
+.showCustomersButton {
+  width: auto;
+  min-width: 100px;
+  height: 32px;
+  padding: 8px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  border-radius: 7px;
+  background: var(--Palette-gray-100, #e9e9e9);
+  opacity: 1;
+  transform: rotate(0deg);
+  font-family: inherit;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--Alias-content-neutral-default, #292929);
+}
+
+/* Search Section Styles */
+.searchSection {
+  width: 453px;
+  height: auto;
+  min-width: 100px;
+  min-height: 32px;
+  margin-bottom: 8px;
+  padding: 0; /* Remove padding since container has alignment padding */
+  opacity: 1;
+  transform: rotate(0deg);
+  position: relative;
+  z-index: 1;
+  /* Prevent overflow clipping to allow dropdown to escape */
+  overflow: visible;
+}
+
+.searchLabel {
+  width: 349px;
+  height: 18px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 18px;
+  letter-spacing: normal;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+  margin-bottom: 6.9px;
+  opacity: 1;
+  transform: rotate(0deg);
+  display: block;
+  transition: opacity 0.2s ease;
+}
+
+.searchSection:has(.disabled) .searchLabel {
+  opacity: 0.4;
+}
+
+.searchInputWrapper {
+  position: relative;
+  width: 453px;
+}
+
+.searchInputContainer {
+  width: 453px;
+  height: 32px;
+  border-radius: 9px;
+  border: 2px solid var(--Palette-gray-300, #dadada);
+  background: var(--Palette-gray-25, #ffffff);
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+.searchInputContainer.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  border: 2px solid var(--Alias-border-disabled-default, #dadada);
+}
+
+.searchInput {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--Alias-content-neutral-default, #292929);
+  padding: 0;
+}
+
+.searchInput:disabled {
+  cursor: not-allowed;
+}
+
+.dropdownButton {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background: #e9e9e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 12px;
+  bottom: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  z-index: 10;
+}
+
+.dropdownButton:hover {
+  background: #dadada;
+}
+
+.dropdownButton.disabledButton {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* Dropdown Results */
+.dropdownResults {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--Palette-gray-25, #ffffff);
+  border: 2px solid var(--Palette-gray-300, #dadada);
+  border-top: none;
+  border-radius: 0 0 9px 9px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 9999; /* Increased z-index to ensure it's above everything */
+  box-shadow: 0px 4px 12px 0px var(--Alias-drop-shadow-ambient, rgba(0, 0, 0, 0.1));
+  margin-top: -2px;
+}
+
+.dropdownItem {
+  padding: 12px 15px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--Palette-gray-200, #f5f5f5);
+  transition: background-color 0.2s ease;
+}
+
+.dropdownItem:hover {
+  background-color: var(--Palette-gray-50, #fafafa);
+}
+
+.dropdownItem:last-child {
+  border-bottom: none;
+}
+
+.customerName {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--Alias-content-neutral-default, #292929);
+  margin-bottom: 4px;
+}
+
+.customerId {
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+}
+
+/* No Customers Message */
+.noCustomersMessage {
+  padding: 16px 15px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+  text-align: center;
+  font-style: italic;
+}
+
+/* Customer Details Section */
+.customerDetailsSection {
+  width: 453px;
+  margin-top: 32px;
+  padding-top: 24px;
+}
+
+.detailsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.detailColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.detailItem {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: baseline;
+}
+
+.detailLabel {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.detailValue {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--Alias-content-neutral-default, #292929);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* License Availability Section */
+.licenseAvailabilitySection {
+  margin-top: 32px;
+}
+
+.licenseAvailabilityLabel {
+  display: block;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+  margin-bottom: 16px;
+}
+
+.radioGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.radioOption {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--Alias-content-neutral-default, #292929);
+}
+
+.radioOption.radioOptionDisabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.radioInput {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: var(--Alias-content-neutral-default, #292929);
+}
+
+.radioInput:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.radioLabel {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--Alias-content-neutral-default, #292929);
+}

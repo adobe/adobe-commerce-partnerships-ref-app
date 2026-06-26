@@ -1,0 +1,167 @@
+/* Order Confirmation Page Styles */
+
+.pageContainer {
+  min-height: 100vh;
+  background-color: #f9fafb;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 60px;
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  margin-bottom: 0;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  max-width: 1100px;
+  margin: 0 auto;
+  min-height: calc(100vh - 60px);
+}
+
+.orderSummaryCard {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  padding: 32px;
+  min-width: 350px;
+  max-width: 400px;
+  min-height: 450px;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 240px;
+  position: relative;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  background-color: #f3f4f6; /* Fallback background color */
+}
+
+.orderImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.productItem {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.productIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  object-fit: contain;
+  background: #f3f4f6;
+}
+
+.productIconFallback {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #888;
+  font-size: 20px;
+}
+
+.productName {
+  font-weight: 600;
+  font-size: 18px;
+  color: #222;
+}
+
+.orderDetails {
+  margin-top: 36px;
+  font-size: 15px;
+}
+
+.detailRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.detailRowLast {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailLabel {
+  color: #444;
+}
+
+.detailValue {
+  font-weight: 600;
+  color: #111827;
+}
+
+.detailValueTotal {
+  font-weight: 700;
+  color: #111827;
+}
+
+.confirmationSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 0;
+}
+
+.confirmationTitle {
+  font-size: 52px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.confirmationMessage {
+  font-size: 18px;
+  color: #374151;
+  margin-bottom: 32px;
+  max-width: 420px;
+}
+
+.continueButton {
+  background: #3366ff;
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  padding: 14px 40px;
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  box-shadow: none;
+  transition: background 0.2s;
+  margin-top: 8px;
+  letter-spacing: 0.2px;
+  min-width: 160px;
+}
+
+.continueButton:hover {
+  background: #2952cc;
+}
+
+.continueButton:active {
+  background: #1e3a8a;
+}

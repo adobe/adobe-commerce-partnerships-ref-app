@@ -1,0 +1,409 @@
+/* CartDetails Modal Styles */
+
+/* Card wrapper styles */
+.cardWrapper {
+  margin-bottom: 6px;
+}
+
+.cardWrapperLast {
+  margin-bottom: 0px;
+}
+
+/* Style Card component through wrapper */
+.cardWrapper > div,
+.cardWrapperLast > div {
+  background: var(--Alias-background-app-frame-layer-2, #ffffff);
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #e5e7eb;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-shadow: 0px 1px 6px 0px var(--Alias-drop-shadow-emphasized-default);
+  width: 100%;
+}
+
+/* Main modal container styles */
+.cartModalScroll {
+  font-family: inherit;
+  background: var(--Alias-background-app-frame-base, #ffffff);
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow:
+    0px 4px 12px 0px var(--Alias-drop-shadow-ambient, rgba(0, 0, 0, 0.1)),
+    0px 2px 6px 0px var(--Alias-drop-shadow-transition, rgba(0, 0, 0, 0.05)),
+    0px 0px 2px 0px var(--Alias-drop-shadow-elevated-key, rgba(0, 0, 0, 0.02));
+  width: 100%;
+  min-width: 400px;
+  max-width: 500px;
+  max-height: 85vh;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  transform: rotate(0deg);
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* License Info Section styles */
+.licenseInfoContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  opacity: 1;
+  margin-bottom: 4px;
+  transform: rotate(0deg);
+}
+
+.licenseInfoText {
+  width: auto;
+  min-width: 187px;
+  height: auto;
+  font-family: inherit;
+  font-size: 12.7px;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+  margin: 0;
+  opacity: 1;
+  transform: rotate(0deg);
+  line-height: 16px;
+  letter-spacing: normal;
+}
+
+/* Partner Info Section styles */
+.partnerInfoContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  opacity: 1;
+  margin-bottom: 8px;
+  transform: rotate(0deg);
+}
+
+.partnerInfoText {
+  width: 309px;
+  height: 16px;
+  font-size: 12.7px;
+  font-weight: 400;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+  margin: 0;
+  opacity: 1;
+  transform: rotate(0deg);
+  line-height: 16px;
+  letter-spacing: normal;
+}
+
+/* Scrollable Product Cards Container */
+.productCardsContainer {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  margin-bottom: 8px;
+  padding-right: 4px;
+}
+
+/* Product Cards styles - now applied through cardWrapper */
+
+.closeButtonSection {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 36px;
+  height: 30px;
+  opacity: 1;
+  transform: rotate(0deg);
+  padding-top: 6px;
+  padding-right: 6px;
+  padding-left: 6px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  z-index: 10;
+}
+
+.productNameContainer {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  min-height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  opacity: 1;
+  transform: rotate(0deg);
+}
+
+.productName {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--Palette-black, #000000);
+  margin: 0;
+  opacity: 1;
+  transform: rotate(0deg);
+  line-height: 150%;
+  letter-spacing: 0%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.licensesSection {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.quantityRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.numberFieldWrapper {
+  width: 120px;
+  max-width: 120px;
+}
+
+/* Update Price Button Styles */
+.updatePriceSection {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 8px 0 6px 0;
+}
+
+/* Product Card Styles */
+.pricingRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.pricePerLicense {
+  width: 121px;
+  height: 18px;
+  opacity: 1;
+  transform: rotate(0deg);
+  font-size: 12px;
+  font-weight: 400;
+  font-family: inherit;
+  line-height: 150%;
+  letter-spacing: normal;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+  margin: 0;
+}
+
+.totalPrice {
+  width: 121px;
+  height: 24px;
+  opacity: 1;
+  transform: rotate(0deg);
+  font-size: 17px;
+  font-weight: 700;
+  font-family: inherit;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: right;
+  color: var(--Palette-black, #000000);
+}
+
+.offerIdContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.offerId {
+  width: 170px;
+  height: 18px;
+  opacity: 1;
+  transform: rotate(0deg);
+  font-size: 12px;
+  font-weight: 400;
+  font-family: inherit;
+  line-height: 150%;
+  letter-spacing: normal;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+  margin: 0;
+}
+
+/* Complete Estimated Total Section styles */
+.estimatedTotalSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.estimatedTotalRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.estimatedTotalLabel {
+  width: 106.51px;
+  height: 18px;
+  opacity: 1;
+  transform: rotate(0deg);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: inherit;
+  line-height: 150%;
+  letter-spacing: normal;
+  color: var(--Palette-gray-900, #131313);
+}
+
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+
+.totalPriceValue {
+  width: 113.16px;
+  height: 18px;
+  opacity: 1;
+  transform: rotate(0deg);
+  font-size: 17px;
+  font-weight: 400;
+  font-family: inherit;
+  line-height: 150%;
+  letter-spacing: normal;
+  text-align: right;
+  color: var(--Palette-black, #000000);
+}
+
+.taxText {
+  width: auto;
+  min-width: 120px;
+  height: 16px;
+  opacity: 1;
+  transform: rotate(0deg);
+  font-size: 12px;
+  font-weight: 400;
+  font-family: inherit;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: right;
+  color: var(--Palette-gray-600, #6d6d6d);
+  white-space: nowrap;
+}
+
+.actionButtonsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+/* Style both buttons to be full width and center aligned */
+.actionButtonsContainer button {
+  width: 100% !important;
+  height: 32px;
+  min-width: 72px;
+  border-radius: 16px !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  font-family: inherit;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center;
+}
+
+/* Empty cart state styles */
+.emptyCartContainer {
+  width: 400px;
+  min-height: 511px;
+  padding: 8px 16px 24px 16px;
+  background: var(--Alias-background-app-frame-base, #ffffff);
+  border-radius: 20px;
+  box-shadow:
+    0px 4px 12px 0px var(--Alias-drop-shadow-ambient, rgba(0, 0, 0, 0.1)),
+    0px 2px 6px 0px var(--Alias-drop-shadow-transition, rgba(0, 0, 0, 0.05)),
+    0px 0px 2px 0px var(--Alias-drop-shadow-elevated-key, rgba(0, 0, 0, 0.02));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  opacity: 1;
+  transform: rotate(0deg);
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.emptyCartTitle {
+  color: #6b7280;
+  font-size: 16px;
+}
+
+/* Modal scrollbar styles */
+.cartModalScroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.cartModalScroll::-webkit-scrollbar-track {
+  background: transparent;
+  margin: 20px 0;
+}
+
+.cartModalScroll::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background-clip: content-box;
+}
+
+.cartModalScroll::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+  background-clip: content-box;
+}
+
+/* Responsive behavior for different screen sizes */
+@media (max-width: 768px) {
+  .cartModalScroll {
+    min-width: 350px;
+    max-width: 90vw;
+    max-height: 85vh;
+  }
+
+  .productNameContainer {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cartModalScroll {
+    min-width: 320px;
+    max-width: 95vw;
+    max-height: 90vh;
+    padding: 8px;
+  }
+
+  .productNameContainer {
+    max-width: 200px;
+  }
+
+  .productName {
+    font-size: 14px;
+  }
+}

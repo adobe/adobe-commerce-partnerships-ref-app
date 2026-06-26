@@ -1,0 +1,138 @@
+/* Catalog Filters Styles */
+
+.filtersContainer {
+  width: 280px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.filterSection {
+  background-color: white;
+  border: none;
+  border-top: none;
+}
+
+.filterSection:first-child {
+  border-top: none;
+  border-radius: 8px 8px 0 0;
+}
+
+.filterSection:last-child {
+  border-radius: 0 0 8px 8px;
+}
+
+.filterHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 14px 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #101011;
+  text-align: left;
+  transition: background-color 0.2s ease;
+  font-family: inherit;
+}
+
+.filterTitle {
+  font-family: inherit;
+}
+
+.filterOptions {
+  padding: 0 20px 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: inherit;
+}
+
+/* Legacy styles removed - now using Spectrum RadioGroup */
+
+/* Spectrum RadioGroup Styling */
+.radioGroup {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  font-family: inherit !important;
+}
+
+/* Override Spectrum Radio styling to match our black theme */
+.radioGroup [role='radio'] {
+  color: #374151 !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  font-family: inherit !important;
+}
+
+.radioGroup [role='radio']:hover {
+  color: #111827 !important;
+}
+
+.radioGroup [role='radio'] [role='radiobutton'] {
+  border: 2px solid #000000 !important;
+  background-color: white !important;
+}
+
+.radioGroup [role='radio'][aria-checked='true'] [role='radiobutton'] {
+  border-color: #000000 !important;
+  background-color: white !important;
+}
+
+.radioGroup [role='radio'][aria-checked='true'] [role='radiobutton']::before {
+  background-color: #000000 !important;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .filtersContainer {
+    width: 100%;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 16px;
+    padding-bottom: 8px;
+  }
+
+  .filterSection {
+    min-width: 200px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+  }
+
+  .filterSection:first-child {
+    border-top: 1px solid #e5e7eb;
+    border-radius: 8px;
+  }
+
+  .filterSection:last-child {
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .filtersContainer {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .filterSection {
+    min-width: auto;
+    border: 1px solid #e5e7eb;
+    border-top: none;
+    border-radius: 0;
+  }
+
+  .filterSection:first-child {
+    border-top: 1px solid #e5e7eb;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .filterSection:last-child {
+    border-radius: 0 0 8px 8px;
+  }
+}

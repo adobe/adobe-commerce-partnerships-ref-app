@@ -1,0 +1,63 @@
+html,
+body {
+  font-family: var(--font-sans), 'Source Sans 3', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+ * Spectrum S2 hardcodes `font-family: adobe-clean-variable, adobe-clean, ...` on its
+ * component classes (specificity [0,1,0]). Using `html [class]` gives specificity
+ * [0,1,1] which beats those declarations and applies Source Sans 3 everywhere.
+ */
+html [class] {
+  font-family: var(--font-sans), 'Source Sans 3', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Ensure Spectrum 2 Picker dropdowns appear above modals */
+[data-placement] {
+  z-index: 2147483647 !important;
+}
+
+/* Increase icon size in Adobe IMS context selection */
+/* Target various possible selectors for context icons */
+.adobe-ims-context-selector img,
+.adobe-ims-context img,
+[data-context-icon] img,
+.context-icon img,
+.dcpContainer img,
+.dcpContainer header img,
+.dcpContainer header .icon img,
+.adobe-ims-context-selector [style*='data:image'],
+.adobe-ims-context [style*='data:image'] {
+  width: 64px !important;
+  height: 64px !important;
+  min-width: 64px !important;
+  min-height: 64px !important;
+  object-fit: contain !important;
+}
+
+/* Target icon container elements directly */
+.adobe-ims-context-selector .icon,
+.adobe-ims-context .icon,
+[data-context-icon],
+.context-icon,
+.dcpContainer header .icon {
+  width: 64px !important;
+  height: 64px !important;
+  min-width: 64px !important;
+  min-height: 64px !important;
+  display: inline-block !important;
+}
+
+/* More general selector for any image in context selection area */
+.adobe-ims-context-selector,
+.adobe-ims-context,
+[class*='context'] {
+  /* Ensure context containers allow larger icons */
+}
+
+/* Target base64 images specifically */
+img[src^='data:image'] {
+  max-width: none !important;
+}

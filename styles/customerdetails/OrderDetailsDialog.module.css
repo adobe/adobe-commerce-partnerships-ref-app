@@ -1,0 +1,215 @@
+/* Overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Dialog Container */
+.dialog {
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  max-height: 90vh;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 24px 12px 24px;
+}
+
+.title {
+  height: 26px;
+  margin: 0;
+  opacity: 1;
+  font-family: inherit;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: normal;
+  color: var(--Alias-content-typography-heading, #131313);
+}
+
+.closeButton {
+  width: 72px !important;
+  height: 32px !important;
+  min-width: 72px !important;
+  opacity: 1 !important;
+  background: transparent !important;
+  color: var(--Alias-content-neutral-default, #292929) !important;
+  border: 2px solid var(--Palette-gray-300, #dadada) !important;
+  border-radius: 16px !important;
+  font-family: inherit !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 100% !important;
+  letter-spacing: normal !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  white-space: nowrap !important;
+}
+
+.closeButton:hover {
+  background: rgba(41, 41, 41, 0.05) !important;
+}
+
+/* Close button text/label */
+.closeButton span {
+  height: 18px !important;
+  opacity: 1 !important;
+  font-family: inherit !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+  font-size: 14px !important;
+  line-height: 100% !important;
+  letter-spacing: 0% !important;
+  color: var(--Alias-content-neutral-default, #292929) !important;
+  white-space: nowrap !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Content */
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px 40px 24px 40px;
+}
+
+/* Date */
+.date {
+  height: 18px;
+  opacity: 1;
+  margin-bottom: 16px;
+  font-family: inherit;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: normal;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+}
+
+/* License Summary */
+.licenseSummary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.licenseCount {
+  height: 18px;
+  opacity: 1;
+  font-family: inherit;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: normal;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+}
+
+/* Product List */
+.productList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Product Card */
+.productCard {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 15px;
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.productName {
+  height: 24px;
+  margin: 0;
+  opacity: 1;
+  font-family: inherit;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: var(--Palette-black, #000000);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.productDetails {
+  margin-bottom: 8px;
+}
+
+.productInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.quantity {
+  height: 18px;
+  opacity: 1;
+  font-family: inherit;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: normal;
+  color: var(--Palette-black, #000000);
+}
+
+.offerId {
+  height: 18px;
+  opacity: 1;
+  font-family: inherit;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: normal;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+}
+
+.errorContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  min-height: 200px;
+}
+
+.errorContainer p {
+  font-family: inherit;
+  font-size: 14px;
+  color: #d7373f;
+  margin: 0 0 8px 0;
+}

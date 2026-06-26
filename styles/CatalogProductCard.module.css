@@ -1,0 +1,357 @@
+/* Catalog Product Card Styles */
+
+/* Regular Product Card */
+.productCard {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition:
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+  width: 220px;
+  height: 190px;
+  overflow: visible;
+  margin: 0 8px 20px 8px;
+  font-family: inherit;
+  position: relative;
+  z-index: 1;
+}
+
+.productCardWithPopup {
+  z-index: 10000;
+}
+
+.productCard:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.productTitleRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.productIcon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.productIconImg {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.productTitleContainer {
+  flex: 1;
+  min-width: 0; /* Allow text to wrap/truncate */
+}
+
+.productEdition {
+  display: block;
+  font-size: 14px;
+  color: var(--spectrum-neutral-content-color-default);
+  font-weight: 400;
+  margin-top: 2px;
+  line-height: 1.2;
+}
+
+.productInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+
+.productHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.productDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.productOfferId {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6b7280;
+  font-family: inherit;
+  line-height: 1.2;
+}
+
+.offerIdContainer {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+}
+
+.infoIconButton {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.infoIcon {
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+  border-radius: 6px;
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+.infoIconWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-left: 8px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 16px;
+  min-width: 180px;
+  max-width: 250px;
+  width: max-content;
+  z-index: 9999;
+  animation: fadeIn 0.2s ease-out;
+  /* Position popup to the right of the icon */
+  transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+  .popup {
+    right: 0;
+    left: auto;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50%) translateX(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-50%) translateX(0);
+  }
+}
+
+.popupHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.popupTitle {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+  line-height: 1.4;
+  flex: 1;
+}
+
+.popupClose {
+  background: none;
+  border: none;
+  font-size: 24px;
+  line-height: 1;
+  color: #6b7280;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 12px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s ease;
+}
+
+.popupClose:hover {
+  color: #111827;
+}
+
+.popupContent {
+  font-size: 14px;
+  font-weight: 400;
+  color: #111827;
+  line-height: 1.5;
+}
+
+.productTitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+  line-height: 1.3;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.productOfferId {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6b7280;
+  font-family: inherit;
+  line-height: 1.2;
+}
+
+.productDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pricingInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 3px;
+}
+
+.priceLabel {
+  font-size: 16px;
+  color: #6b7280;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+.price {
+  font-size: 17px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 5px;
+}
+
+.priceUnit {
+  font-size: 13px;
+  font-weight: 380;
+  color: #111827;
+}
+
+.viewAllPricingContainer {
+  width: 156px;
+  height: 17px;
+  opacity: 1;
+  transform: rotate(0deg);
+  margin-top: 4px;
+}
+
+.viewAllPricingText {
+  width: 156px;
+  height: 17px;
+  font-family: inherit;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: normal;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-offset: 0%;
+  text-decoration-thickness: 0%;
+  color: var(--Alias-content-typography-body, #292929);
+  cursor: pointer;
+  display: block;
+  transition: color 0.2s ease;
+  user-select: none;
+}
+
+.viewAllPricingText:hover {
+  color: #1f2937;
+}
+
+.viewAllPricingText:active {
+  color: #111827;
+}
+
+.buyButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white !important;
+  color: black !important;
+  border: 2px solid black !important;
+  min-width: 67px;
+  height: 30px;
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+.cartQuantityDisplay {
+  width: 156px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 1;
+  transform: rotate(0deg);
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+.cartQuantityText {
+  width: auto;
+  height: 18px;
+  opacity: 1;
+  transform: rotate(0deg);
+  font-family: inherit;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: normal;
+  color: #000000;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: -1px;
+}
+
+/* Spectrum 2 button hover handled by component */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .productCard {
+    width: 200px;
+    height: 180px;
+    padding: 12px;
+    margin: 0 6px 16px 6px;
+  }
+
+  .buyButton {
+    align-self: stretch !important;
+    min-width: 80px !important;
+  }
+}

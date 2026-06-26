@@ -1,0 +1,148 @@
+/* Customers Page Specific Styles */
+
+/* Page Header */
+.pageHeader {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.resellerTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 8px;
+}
+
+.loadingText {
+  opacity: 0.5;
+}
+
+.searchingFor {
+  font-size: 14px;
+  color: #6b7280;
+  margin-top: 8px;
+}
+
+.loadingSpinnerWrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px;
+}
+
+.loadingSpinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #e5e7eb;
+  border-top: 2px solid #3b82f6;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.searchIndicator {
+  grid-column: 1 / -1;
+  padding: 12px;
+  background-color: #f3f4f6;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.customerTitle {
+  font-size: 45px;
+  font-weight: 900;
+  color: #000000;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+}
+
+/* Customer-specific info styling */
+.customerInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  flex: 1;
+  min-width: 0;
+}
+
+.customerName {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+  word-break: break-word;
+  font-family: inherit;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* State messages */
+.stateMessage {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 16px;
+  color: #6b7280;
+  text-align: center;
+}
+
+.stateMessage h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #374151;
+  margin: 0 0 8px 0;
+}
+
+.stateMessage p {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 0;
+}
+
+.errorMessage {
+  color: #dc2626;
+}
+
+.errorMessage h3 {
+  color: #dc2626;
+}
+
+.emptyMessage {
+  color: #6b7280;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .customersGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .searchRow {
+    flex-direction: column;
+    gap: 16px;
+    align-items: stretch;
+  }
+
+  .searchField {
+    width: 100%;
+  }
+}

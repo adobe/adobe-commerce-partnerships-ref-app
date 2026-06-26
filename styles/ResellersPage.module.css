@@ -1,0 +1,212 @@
+/* Resellers Page Specific Styles */
+
+.pageHeader {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.pageTitle {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.searchingFor {
+  font-size: 14px;
+  color: #6b7280;
+  margin-top: 8px;
+}
+
+.searchIndicator {
+  grid-column: 1 / -1;
+  padding: 12px;
+  background-color: #f3f4f6;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* Reseller-specific grid scrollbar styling */
+.resellersGrid::-webkit-scrollbar {
+  width: 8px;
+}
+
+.resellersGrid::-webkit-scrollbar-track {
+  background-color: #f1f5f9;
+  border-radius: 4px;
+}
+
+.resellersGrid::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 4px;
+}
+
+.resellersGrid::-webkit-scrollbar-thumb:hover {
+  background-color: #94a3b8;
+}
+
+/* State messages */
+.stateMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 16px;
+  color: #6b7280;
+  text-align: center;
+  grid-column: 1 / -1;
+}
+
+.stateMessage div {
+  max-width: 400px;
+  padding: 20px;
+}
+
+.stateMessage h3 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.stateMessage p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.errorMessage {
+  color: #dc2626;
+}
+
+.errorMessage h3 {
+  color: #dc2626;
+}
+
+.emptyMessage {
+  color: #6b7280;
+}
+
+/* Reseller-specific info styling */
+.resellerInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  flex: 1;
+  min-width: 0;
+}
+
+.resellerName {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+  word-break: break-word;
+  font-family: inherit;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+/* Chevron icon for navigation hint */
+.chevron {
+  width: 20px;
+  height: 20px;
+  color: #9ca3af;
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+/* Loading indicator */
+.loadingIndicator {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 12px;
+  color: #6b7280;
+  z-index: 10;
+}
+
+.spinner {
+  width: 12px;
+  height: 12px;
+  border: 1.5px solid #e5e7eb;
+  border-top-color: #3b82f6;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.pageInfo {
+  font-size: 14px;
+  color: #374151;
+  font-weight: 500;
+  min-width: 120px;
+  text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .resellersGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .searchRow {
+    flex-direction: column;
+    gap: 16px;
+    align-items: stretch;
+  }
+
+  .searchField {
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 80px;
+  }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  .resellerCard {
+    border-color: #000;
+  }
+
+  .resellerCard:hover {
+    border-color: #0066cc;
+  }
+}
+
+/* Spinner animation for loading indicator */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .resellerCard,
+  .userAvatar,
+  .chevron {
+    transition: none;
+  }
+
+  .skeleton {
+    animation: none;
+  }
+}

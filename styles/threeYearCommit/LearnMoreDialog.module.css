@@ -1,0 +1,311 @@
+/* Learn More Dialog Styles */
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  width: min(90vw, 900px);
+  max-height: 90vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 40px;
+  position: relative;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.modalTitle {
+  width: 461px;
+  height: 26px;
+  margin: 0;
+  opacity: 1;
+  transform: rotate(0deg);
+  font-family: inherit;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: normal;
+  color: var(--Alias-content-typography-heading, #131313);
+  flex: 1;
+}
+
+.goBackButton {
+  width: 80px !important;
+  height: 32px !important;
+  min-width: 72px !important;
+  border-radius: 16px !important;
+  border-width: 2px !important;
+  opacity: 1 !important;
+  transform: rotate(0deg);
+  border: 2px solid var(--Palette-gray-300, #dadada) !important;
+  background: var(--Palette-white, #ffffff) !important;
+  white-space: nowrap !important;
+  font-family: inherit !important;
+  font-weight: 700 !important;
+  font-style: Bold !important;
+  font-size: 14px !important;
+  line-height: 100% !important;
+  letter-spacing: 0% !important;
+  color: var(--Alias-content-neutral-default, #292929) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important;
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Card Styles */
+.card {
+  width: 414px;
+  min-height: 156px;
+  height: auto;
+  opacity: 1;
+  transform: rotate(0deg);
+  gap: 13px;
+  border-radius: 20px !important;
+  padding: 20px !important;
+  background: transparent !important;
+  position: relative;
+  overflow: visible !important;
+  border: none !important;
+  box-sizing: border-box !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 2px;
+  background: linear-gradient(188.13deg, #d72f2c 2.26%, #cb37b5 58.85%, #7c50ea 108.3%);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  border-radius: 18px;
+  background: var(--Palette-white, #ffffff);
+  z-index: -1;
+}
+
+.cardTitle {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  font-family: inherit;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: normal;
+  color: var(--Palette-black, #000000);
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Card Item Styles */
+.cardItem {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--Alias-content-neutral-default, #292929);
+}
+
+.cardItem svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.cardItemText {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  font-family: inherit;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #505050;
+}
+
+.cardItemSpan {
+  font-family: inherit;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.benefitLabel {
+  font-weight: 700;
+  color: #505050;
+}
+
+/* Icon Styles */
+.checkmark {
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+  position: relative;
+  flex-shrink: 0;
+  color: #8628d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkmark svg {
+  color: inherit;
+}
+
+.checkmark svg path {
+  fill: currentColor !important;
+}
+
+.userIcon {
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+  position: relative;
+  color: #8628d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userIcon svg {
+  color: inherit;
+}
+
+.userIcon svg path {
+  fill: currentColor !important;
+}
+
+.emailIcon {
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+  position: relative;
+  color: #8628d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emailIcon svg {
+  color: inherit;
+}
+
+.emailIcon svg path {
+  fill: currentColor !important;
+}
+
+.cartIcon {
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+  position: relative;
+  color: #8628d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartIcon svg {
+  color: inherit;
+}
+
+.cartIcon svg path {
+  fill: currentColor !important;
+}
+
+.howItWorksText {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  font-family: inherit;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #505050;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .modal {
+    padding: 24px;
+  }
+
+  .modalHeader {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .modalTitle {
+    font-size: 24px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .cardTitle {
+    font-size: 16px;
+  }
+}

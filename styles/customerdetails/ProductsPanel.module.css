@@ -1,0 +1,362 @@
+/* CustomerProductsOverviewPanel Component Styles */
+
+/* ===== MAIN CONTAINER ===== */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+  width: 100%;
+}
+
+/* ===== ANNIVERSARY DATE SECTION ===== */
+.anniversarySection {
+  display: flex;
+  width: 100%;
+  padding: 16px 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border-radius: 8px;
+  background: var(--Alias-background-app-frame-layer-2, #fff);
+  box-shadow: 0 1px 6px 0 var(--Alias-drop-shadow-emphasized-default, rgba(0, 0, 0, 0.12));
+}
+
+.anniversaryContent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  padding: 0 14px;
+  font-size: 14px;
+}
+
+.anniversaryLabel {
+  font-family: inherit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  color: var(--Alias-content-typography-title, #131313);
+}
+
+.anniversaryValue {
+  font-family: inherit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  color: var(--Alias-content-typography-title, #131313);
+}
+
+.editRenewalButtonWrapper {
+  margin-right: 16px;
+}
+
+/* ===== ENROLLMENT SECTION ===== */
+.enrollmentSection {
+  display: flex;
+  width: 100%;
+  padding: 16px 0;
+  align-items: center;
+  gap: 16px;
+  border-radius: 8px;
+  background: var(--Alias-background-app-frame-layer-2, #fff);
+  box-shadow: 0 1px 6px 0 var(--Alias-drop-shadow-emphasized-default, rgba(0, 0, 0, 0.12));
+}
+
+.enrollmentContent {
+  flex: 1;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.distributorIconContainer {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.lockCloseIllustrationWrapper {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lockCloseIllustrationWrapper svg {
+  width: 32px;
+  height: 32px;
+}
+
+.distributorMessageContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.distributorMessagePrimary {
+  font-family: inherit;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  color: var(--Alias-content-typography-title, #131313);
+}
+
+.distributorMessageSecondary {
+  font-family: inherit;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+}
+
+.commitTermsContent {
+  flex: 1;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.commitTermsIcon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.commitTermsIllustration {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+}
+
+.commitTermsIllustration svg {
+  width: 32px;
+  height: 32px;
+}
+
+.enrollmentMessage {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: inherit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  color: var(--Alias-content-typography-title, #131313);
+}
+
+.enrollmentIllustrationWrapper {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+
+.enrollmentIllustrationWrapper svg {
+  width: 24px;
+  height: 24px;
+}
+
+.enrollButtonWrapper {
+  margin-right: 16px;
+}
+
+.commitTermsMessage {
+  font-family: inherit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: var(--Alias-content-typography-title, #131313);
+}
+
+/* ===== BUTTON STYLES ===== */
+.editRenewalButton {
+  height: 32px !important;
+  min-height: 32px !important;
+  opacity: 1 !important;
+  font-family: inherit !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 120% !important;
+  white-space: nowrap !important;
+  background-color: var(--Palette-transparent-black-100, rgba(0, 0, 0, 0.09)) !important;
+  color: var(--Palette-transparent-black-800, rgba(0, 0, 0, 0.84)) !important;
+  border: 1px solid var(--Palette-gray-300, #dadada) !important;
+  border-radius: 8px !important;
+  cursor: pointer !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-right: 16px !important;
+  padding: 4px 14px !important;
+}
+
+.editRenewalButton:hover {
+  background-color: var(--Palette-transparent-black-100, rgba(0, 0, 0, 0.15)) !important;
+}
+
+.renewNowButton {
+  width: 100px !important;
+  height: 24px !important;
+  opacity: 1 !important;
+  font-family: inherit !important;
+  font-size: Font size/75 !important;
+  font-weight: 500 !important;
+  font-style: Medium !important;
+  line-height: Line height/75 !important;
+  letter-spacing: Letter spacing !important;
+  background-color: var(--Palette-transparent-black-100, rgba(0, 0, 0, 0.09)) !important;
+  color: var(--Palette-transparent-black-800, rgba(0, 0, 0, 0.84)) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  cursor: pointer !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-right: 16px !important;
+}
+
+/* ===== RENEWAL WINDOW BANNER STYLES ===== */
+.renewalWindowTitle {
+  width: 231px;
+  height: 18px;
+  opacity: 1;
+  font-family: 'Source Sans 3';
+  font-size: 14px;
+  font-weight: 700;
+  font-style: Bold;
+  line-height: 130%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: var(--Alias-content-typography-title, #131313);
+  white-space: nowrap;
+}
+
+.renewalWindowDescription {
+  width: 850px;
+  height: 18px;
+  opacity: 1;
+  font-family: 'Source Sans 3';
+  font-size: 12px;
+  font-weight: 400;
+  font-style: Regular;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: var(--Alias-content-typography-body, #292929);
+}
+
+.enrollButton {
+  width: 48px !important;
+  height: 24px !important;
+  opacity: 1 !important;
+  font-family: inherit !important;
+  font-size: Font size/75 !important;
+  font-weight: 500 !important;
+  font-style: Medium !important;
+  line-height: Line height/75 !important;
+  letter-spacing: Letter spacing !important;
+  background-color: var(--Palette-transparent-black-100, rgba(0, 0, 0, 0.09)) !important;
+  color: var(--Palette-transparent-black-800, rgba(0, 0, 0, 0.84)) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  cursor: pointer !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-right: 16px !important;
+}
+
+.enrollButton:hover {
+  background: var(--Palette-transparent-black-100, rgba(0, 0, 0, 0.15)) !important;
+}
+
+.learnMoreButton {
+  margin-right: 16px !important;
+  height: 32px !important;
+  min-height: 32px !important;
+  font-family: inherit !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 120% !important;
+  white-space: nowrap !important;
+  border-radius: 8px !important;
+  padding: 4px 14px !important;
+  border: 1px solid var(--Palette-gray-300, #dadada) !important;
+  background-color: var(--Palette-transparent-black-100, rgba(0, 0, 0, 0.09)) !important;
+  color: var(--Alias-content-neutral-default, #292929) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.learnMoreButton:hover {
+  background: var(--Palette-transparent-black-100, rgba(0, 0, 0, 0.05)) !important;
+}
+
+.learnMoreButtonWrapper {
+  margin-right: 16px;
+}
+
+.viewTermsButton {
+  width: 100px !important;
+  height: 32px !important;
+  opacity: 1 !important;
+  font-family: inherit !important;
+  font-size: Font size/75 !important;
+  font-weight: 500 !important;
+  font-style: Medium !important;
+  line-height: Line height/75 !important;
+  letter-spacing: Letter spacing !important;
+  background-color: var(--Palette-transparent-black-100, rgba(0, 0, 0, 0.09)) !important;
+  color: var(--Palette-transparent-black-800, #000000d6) !important;
+  border: none !important;
+  border-radius: 7px !important;
+  cursor: pointer !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-right: 16px !important;
+  white-space: nowrap !important;
+}
+
+.viewTermsButton span {
+  width: 56px;
+  height: 16px;
+  opacity: 1;
+  font-family: inherit;
+  font-size: Font size/75;
+  font-weight: 500;
+  font-style: Medium;
+  line-height: Line height/75;
+  letter-spacing: Letter spacing;
+  color: var(--Palette-transparent-black-800, #000000d6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.viewTermsButton:hover {
+  background: var(--Palette-transparent-black-100, rgba(0, 0, 0, 0.15)) !important;
+}

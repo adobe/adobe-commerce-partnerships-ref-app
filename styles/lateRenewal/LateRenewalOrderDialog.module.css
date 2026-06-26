@@ -1,0 +1,642 @@
+/* Late Renewal Order Dialog Styles */
+
+/* Backdrop */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+/* Dialog Container */
+.dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 900px;
+  max-height: 90vh;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 32px;
+}
+
+.title {
+  width: 177px;
+  height: 26px;
+  opacity: 1;
+  font-family: inherit;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: Font size/500;
+  line-height: Line height/500;
+  letter-spacing: Letter spacing;
+  color: var(--Alias-content-typography-heading, #131313);
+  margin: 0;
+}
+
+.headerButtons {
+  display: flex;
+  gap: 12px;
+}
+
+.cancelButton {
+  width: 72px !important;
+  height: 32px !important;
+  min-width: 72px !important;
+  opacity: 1 !important;
+  background-color: transparent !important;
+  color: var(--Alias-content-neutral-default, #292929) !important;
+  border: 2px solid var(--Palette-gray-300, #dadada) !important;
+  border-radius: 16px !important;
+  font-family: inherit !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 100% !important;
+  letter-spacing: 0% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.cancelButtonLabel {
+  width: 40px;
+  height: 18px;
+  opacity: 1;
+  font-family: inherit;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--Alias-content-neutral-default, #292929);
+}
+
+.renewButton {
+  width: 102px !important;
+  height: 32px !important;
+  min-width: 72px !important;
+  opacity: 1 !important;
+  background: var(--Alias-background-semantic-accent-default, #3b63fb) !important;
+  color: var(--Palette-white, #ffffff) !important;
+  border: none !important;
+  border-radius: 16px !important;
+  font-family: inherit !important;
+  font-weight: 700 !important;
+  font-style: Bold !important;
+  font-size: 14px !important;
+  line-height: 100% !important;
+  letter-spacing: 0% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.renewButton:disabled,
+.renewButton[disabled] {
+  background: var(--Alias-background-neutral-subdued, #e0e0e0) !important;
+  color: var(--Alias-content-neutral-disabled, #6c6a6aff) !important;
+  cursor: not-allowed !important;
+}
+
+.renewButtonLabel {
+  width: 70px;
+  height: 18px;
+  opacity: 1;
+  font-family: inherit;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(--Palette-white, #ffffff);
+}
+
+.closeButton {
+  background: transparent !important;
+  color: #6b7280 !important;
+  border: none !important;
+  border-radius: 16px !important;
+  padding: 0 !important;
+  font-size: 18px !important;
+  width: 32px !important;
+  height: 32px !important;
+  min-width: 32px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Content */
+.content {
+  padding: 24px 48px 32px 48px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+/* Deadline */
+.deadline {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 150%;
+  letter-spacing: normal;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+  margin-bottom: 16px;
+}
+
+/* Licenses Info */
+.licensesInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.licensesCount {
+  font-family: inherit;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: normal;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+}
+
+.licensesCount br {
+  line-height: 0;
+  height: 2px;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.discountLevel {
+  font-family: inherit;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: normal;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+}
+
+.discountBadge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  background-color: #e8f3ff;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 400;
+  color: #0265dc;
+}
+
+/* Product List */
+.productList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+  flex: 1;
+  min-height: 0;
+}
+
+/* Product Card */
+.productCard {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 16px;
+  width: 100% !important;
+  max-width: 100% !important;
+  /* overflow visible so PromoCodeDialog (fixed inside transformed modal) is not clipped */
+  box-sizing: border-box;
+  position: relative;
+}
+
+.closeButtonSection {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 24px;
+  height: 24px;
+  opacity: 1;
+  z-index: 1;
+}
+
+.cardCloseButton {
+  width: 24px !important;
+  height: 24px !important;
+  min-width: 24px !important;
+  padding: 3px !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.closeIcon {
+  width: 18px;
+  height: 18px;
+  opacity: 1;
+  transform: rotate(0deg);
+}
+
+.closeIcon path {
+  width: 11.676271438598633px;
+  height: 11.67539119720459px;
+  opacity: 1;
+  transform: rotate(0deg);
+  position: relative;
+  top: 3.16px;
+  left: 3.16px;
+}
+
+.productHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.productInfo {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+}
+
+.productIcon {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.iconPlaceholder {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #ff0000 0%, #cc0000 100%);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.productDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  min-width: 0;
+}
+
+.productName {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: var(--Palette-black, #000000);
+  opacity: 1;
+  margin: 0;
+  white-space: nowrap;
+  flex: 1;
+  min-width: 0;
+}
+
+/* Renew Toggle */
+.renewToggle {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+
+.renewSwitch {
+  width: auto !important;
+  max-width: none !important;
+  min-width: 120px !important;
+  min-height: 24px !important;
+  opacity: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Target inner elements of Spectrum Switch */
+.renewSwitch label {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  min-height: 24px !important;
+  font-family: inherit !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-size: 12px !important;
+  line-height: 150% !important;
+  letter-spacing: normal !important;
+  color: var(--Alias-content-neutral-default, #292929) !important;
+  opacity: 1 !important;
+  white-space: nowrap !important;
+}
+
+/* Product Body */
+.productBody {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.rightSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+  margin-left: auto;
+}
+
+/* Quantity Section */
+.quantitySection {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.quantityLabel {
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 400;
+  color: #6e6e6e;
+}
+
+.quantityControls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.quantityInput {
+  width: 120px !important;
+}
+
+/* Price Section */
+.priceSection {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.priceRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.priceLabel {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  color: #292929;
+}
+
+.updatePriceButton {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  background: transparent;
+  border: none;
+  color: #0265dc;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.updatePriceButton:hover {
+  background-color: #f5f5f5;
+}
+
+.offerIdRow {
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 400;
+  color: #6e6e6e;
+}
+
+.offerId {
+  font-family: inherit;
+  font-size: 12px;
+  color: #6e6e6e;
+}
+
+/* Total Price */
+.totalPrice {
+  font-family: 'Source Sans 3', inherit;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: var(--Palette-black, #000000);
+  text-align: right;
+  opacity: 1;
+}
+
+/* Price Per License */
+.pricePerLicense {
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 150%;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+  opacity: 1;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+/* Offer ID */
+.offerIdBox {
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 150%;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+  opacity: 1;
+}
+
+/* Update Price Button - Now positioned in licensesInfo section */
+
+.updatePriceButton {
+  width: auto;
+  min-width: 90px;
+  height: 28px;
+  opacity: 1;
+  transform: rotate(0deg);
+  background: white !important;
+  color: #333 !important;
+  border: 1px solid #d1d5db !important;
+  border-radius: 14px !important;
+  padding: 4px 12px !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  cursor: pointer !important;
+  transition: background-color 0.2s ease !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+}
+
+.updatePriceButton:hover {
+  background: #f9fafb !important;
+  border-color: #9ca3af !important;
+}
+
+.updatePriceIcon {
+  width: 16px;
+  height: 16px;
+  opacity: 1;
+  transform: rotate(0deg);
+  color: #333;
+}
+
+.updatePriceText {
+  color: #333;
+  font-size: 12px;
+  font-weight: 700;
+  opacity: 1;
+  transform: rotate(0deg);
+  white-space: nowrap;
+}
+
+/* Discount Details */
+.discountDetails {
+  margin-top: 16px;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 12px;
+}
+
+.discountSummary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  color: #0265dc;
+  cursor: pointer;
+  list-style: none;
+}
+
+.discountSummary::-webkit-details-marker {
+  display: none;
+}
+
+.chevron {
+  transition: transform 0.2s;
+}
+
+.discountDetails[open] .chevron {
+  transform: rotate(180deg);
+}
+
+.discountContent {
+  padding: 12px 0;
+  font-family: inherit;
+  font-size: 14px;
+  color: #292929;
+}
+
+/* Loading Overlay */
+.loadingOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+}
+
+.loadingContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background: white;
+  padding: 32px 48px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.spinner {
+  width: 48px;
+  height: 48px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #1473e6;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loadingText {
+  font-family: 'Source Sans 3', inherit;
+  font-size: 16px;
+  font-weight: 400;
+  color: #292929;
+  text-align: center;
+}
+
+.promoCodeButtonWrapper {
+  text-align: right;
+}

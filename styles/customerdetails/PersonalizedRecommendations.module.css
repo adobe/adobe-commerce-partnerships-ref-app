@@ -1,0 +1,232 @@
+/* PersonalizedRecommendations Component Styles */
+
+/* ===== MAIN CONTAINER ===== */
+.container {
+  width: 100%;
+}
+
+/* ===== HEADER SECTION ===== */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  margin-bottom: 16px;
+  padding: 8px 0;
+  margin-top: 18px;
+  border-top: 1px solid #e5e7eb;
+}
+
+/* ===== CHEVRON ICON ===== */
+.chevron {
+  transform: rotate(0deg);
+  transition: transform 0.2s ease;
+}
+
+.chevronExpanded {
+  transform: rotate(180deg);
+  transition: transform 0.2s ease;
+}
+
+/* ===== SECTION TITLE ===== */
+.title {
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}
+
+/* ===== RECOMMENDATIONS GRID LAYOUT ===== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 434px);
+  gap: 24px 40px;
+  justify-content: start;
+  justify-items: start;
+  width: 100%;
+  padding-bottom: 8px;
+}
+
+/* ===== EMPTY STATE MESSAGE ===== */
+.emptyState {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 120px;
+  width: 100%;
+  color: #6b7280;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  background: #f9fafb;
+  border-radius: 8px;
+  margin: 16px 0;
+}
+
+/* ===== RECOMMENDATION CARD ===== */
+.recommendationCard {
+  display: flex;
+  flex-direction: row;
+  width: 430px;
+  height: 180px;
+  align-items: center;
+  gap: 0px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: var(--Palette-white, #fff);
+  border: 1px solid #e5e7eb;
+  padding: 0px;
+  overflow: hidden;
+}
+
+/* ===== GRADIENT SIDEBAR ===== */
+.gradientSidebar {
+  width: 41px;
+  height: 100%;
+  flex-shrink: 0;
+  border-radius: 18px 0 0 18px;
+  background: var(
+    --Firefly,
+    linear-gradient(188deg, #d72f2c 2.26%, #cb37b5 58.85%, #7c50ea 108.3%)
+  );
+}
+
+/* ===== CARD CONTENT ===== */
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px 20px 20px 20px;
+}
+
+/* ===== PRODUCT HEADER ===== */
+.productHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+/* ===== PRODUCT ICON ===== */
+.productIcon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+
+/* ===== PRODUCT ICON FALLBACK ===== */
+.productIconFallback {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+/* ===== PRODUCT TITLE ===== */
+.productTitle {
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--Alias-content-typography-title, #131313);
+  margin: 0;
+  padding: 0;
+  flex: 1;
+}
+
+/* ===== PRICING SECTION ===== */
+.pricingSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.pricingInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.pricingTier {
+  font-family: inherit;
+  font-size: 12px;
+  color: var(--Alias-content-neutral-default, #292929);
+  margin: 0;
+}
+
+.pricingAmount {
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--Alias-content-typography-title, #131313);
+  margin: 0;
+}
+
+/* ===== BUY BUTTON ===== */
+.buyButton {
+  width: auto;
+  height: 32px;
+  min-width: 72px;
+  opacity: 1;
+  border-radius: 16px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  padding: 8px 16px;
+  font-family: inherit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.productName {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  flex: 1 0 0;
+  overflow: hidden;
+  color: var(--Alias-content-typography-title, var(--Alias-content-typography-title, #131313));
+  text-overflow: ellipsis;
+  font-family: inherit;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: var(--Letter-spacing, 0);
+}
+
+/* ===== CART QUANTITY DISPLAY ===== */
+.cartQuantityDisplay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  min-width: 72px;
+  height: 32px;
+}
+
+.cartQuantityText {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--Alias-content-typography-title, #131313);
+  line-height: 18px;
+}

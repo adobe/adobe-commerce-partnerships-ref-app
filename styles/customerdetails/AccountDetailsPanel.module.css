@@ -1,0 +1,143 @@
+/* Account Details Panel Styles */
+
+/* Card Wrapper - Controls the width of the Spectrum 2 Card */
+.cardWrapper {
+  width: 100%;
+  max-width: 500px; /* Adjust this value to your desired width */
+}
+
+.cardWrapper > div {
+  width: 100%;
+}
+
+/* Detail Row Styles */
+.detailRow {
+  display: flex;
+  align-items: flex-start;
+  padding: 16px 18px;
+  border-bottom: 1px solid #e5e7eb;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  position: relative;
+}
+
+.detailRow:last-child {
+  border-bottom: none;
+}
+
+.detailRowHighlighted {
+  background-color: #faf5ff;
+  border: 2px solid #8b5cf6;
+  border-radius: 8px;
+  margin: 0 0 16px 0;
+}
+
+.detailRowContent {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.detailRowLabel {
+  color: #111827;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.detailRowValueContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.detailRowValue {
+  font-weight: 500;
+  color: #111827;
+  font-size: 15px;
+  line-height: 1.4;
+  white-space: pre-line;
+}
+
+.detailRowDescription {
+  color: #6b7280;
+  font-size: 13px;
+  line-height: 1.3;
+  margin-top: 4px;
+}
+
+/* Avatar Styles */
+.avatarsContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  border: 2px solid white;
+}
+
+.avatarPrimary {
+  background-color: #ec4899;
+}
+
+.avatarSecondary {
+  background-color: #3b82f6;
+  margin-left: -8px;
+}
+
+/* Skeleton Styles */
+.skeleton {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e5e7eb;
+  padding: 48px 64px;
+  width: 100%;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  opacity: 0.6;
+}
+
+.skeletonTitle {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 16px;
+  background: #f3f4f6;
+  height: 36px;
+  width: 220px;
+  border-radius: 8px;
+}
+
+.skeletonContent {
+  display: flex;
+  gap: 64px;
+}
+
+.skeletonColumn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.skeletonItem {
+  height: 24px;
+  background: #f3f4f6;
+  border-radius: 6px;
+  width: 80%;
+}

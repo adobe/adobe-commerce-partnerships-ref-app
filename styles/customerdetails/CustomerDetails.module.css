@@ -1,0 +1,370 @@
+/* CustomerDetails Page Styles */
+
+/* ===== MAIN CONTAINER ===== */
+.mainContainer {
+  min-height: 100vh;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== LOADING STATE ===== */
+.loadingContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== ERROR STATE ===== */
+.errorContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.errorTitle {
+  color: #ef4444;
+  font-size: 24px;
+  margin: 0;
+}
+
+.errorMessage {
+  color: #6b7280;
+  font-size: 16px;
+  margin: 0;
+}
+
+.goBackButton {
+  padding: 8px 16px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* ===== HEADER ===== */
+.header {
+  height: 60px;
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.headerRightSection {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.aiButton {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 36px;
+}
+
+.checkoutButton {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 36px;
+}
+
+.checkoutButton:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.checkoutButton:hover:not(:disabled) {
+  background-color: #3367d6;
+}
+
+.questionMarkIcon {
+  width: 18px;
+  height: 18px;
+  background-color: #464646;
+  border-radius: 50%;
+}
+
+.userAvatar {
+  cursor: pointer;
+}
+
+/* ===== MAIN LAYOUT ===== */
+.mainLayout {
+  flex: 1;
+  display: flex;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+  width: 100px;
+  background-color: white;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.sidebarItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.sidebarIcon {
+  width: 48px;
+  height: 48px;
+  background-color: #2d2d2d;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.sidebarLabel {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
+
+/* ===== MAIN CONTENT ===== */
+.mainContent {
+  flex: 1;
+  padding: 16px 16px 16px 40px;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+/* ===== BREADCRUMB ===== */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.breadcrumbText {
+  font-family: inherit;
+  font-size: 14px;
+  color: #292929;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0;
+}
+
+/* ===== PAGE HEADER ===== */
+.pageHeader {
+  margin-bottom: 16px;
+  text-align: left;
+  padding-left: 0px;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  position: relative;
+}
+
+.customerInfo {
+  flex: 1;
+}
+
+.customerName {
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 800;
+  color: #000000;
+  margin: 0 0 8px 0;
+  line-height: 42px;
+  letter-spacing: 0;
+  font-style: normal;
+}
+
+.customerId {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6b7280;
+  margin: -4px 0 12px 0;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+.customerIdLabel {
+  font-weight: 400;
+  color: #6b7280;
+}
+
+.customerIdValue {
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.discountLevel {
+  font-size: 18px;
+  font-weight: 500;
+  color: #6b7280;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+/* ===== CART BUTTON ===== */
+.cartButtonWrapper {
+  padding: 26px 26px;
+}
+
+.cartButtonWrapper button {
+  gap: 10px;
+  padding: 7px;
+}
+
+.cartButtonWrapper svg {
+  width: 20px;
+  height: 20px;
+}
+
+.cartText {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* ===== CART MODAL ===== */
+.cartDropdownOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.cartDropdown {
+  position: fixed;
+  top: 80px;
+  right: 40px;
+  z-index: 1001;
+  pointer-events: auto;
+}
+
+/* ===== CUSTOMER DETAILS PAGE WRAPPER ===== */
+.customerDetailsPageWrapper {
+  margin: -24px;
+  padding: 18px 100px 100px 100px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== TAB NAVIGATION (Now using Spectrum Tabs) ===== */
+/* Custom tab styles removed - using Spectrum 2 Tabs component */
+
+/* ===== CONTENT CONTAINER ===== */
+.contentContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+/* ===== ERROR MESSAGE ===== */
+.errorMessageContainer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+  color: red;
+}
+
+/* ===== PRODUCTS ERROR ===== */
+.productsError {
+  background: #fef3cd;
+  border: 1px solid #f59e0b;
+  border-radius: 6px;
+  padding: 4px;
+  margin-bottom: 6px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.productsErrorText {
+  font-size: 11px;
+  color: #92400e;
+}
+
+/* ===== PRODUCTS PANEL WRAPPER ===== */
+.productsPanelWrapper {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* ===== ACCOUNT DETAILS WRAPPER ===== */
+.accountDetailsWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  padding: 40px 0 40px 0;
+}
+
+/* ===== PURCHASE HISTORY WRAPPER ===== */
+/* Purchase history component handles its own styling */
+
+/* ===== BROWSE CATALOG SECTION ===== */
+.browseCatalogSection {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 20px;
+}
+
+.browseCatalogLink {
+  color: #0066cc;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.browseCatalogLink:hover {
+  background-color: #f3f4f6;
+  color: #0052a3;
+}
