@@ -8,7 +8,11 @@ export async function getAccessToken(): Promise<string> {
     return cachedToken;
   }
 
-  const tokenUrl = process.env.IMS_TOKEN_URL || 'https://ims-na1-stg1.adobelogin.com/ims/token/v2';
+  const imsBase = process.env.IMS_TOKEN;
+  if (!imsBase) {
+    throw new ApiError('Missing IMS_TOKEN', 500);
+  }
+  const tokenUrl = `${imsBase}/ims/token/v2`;
   const clientId = process.env.PARTNER_CLIENT_ID;
   const clientSecret = process.env.PARTNER_CLIENT_SECRET;
   const scopes = process.env.IMS_SCOPES || 'openid,AdobeID,read_organizations';
