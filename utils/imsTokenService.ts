@@ -8,9 +8,9 @@ export async function getAccessToken(): Promise<string> {
     return cachedToken;
   }
 
-  const imsBase = process.env.IMS_TOKEN;
+  const imsBase = process.env.IMS_TOKEN_URL;
   if (!imsBase) {
-    throw new ApiError('Missing IMS_TOKEN', 500);
+    throw new ApiError('Missing IMS_TOKEN_URL', 500);
   }
   const tokenUrl = `${imsBase}/ims/token/v2`;
   const clientId = process.env.PARTNER_CLIENT_ID;
