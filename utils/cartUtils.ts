@@ -73,31 +73,6 @@ export async function fetchOrderPreview(
 }
 
 /**
- * Converts a cart item to lineItems + cancellingItems for a switch order
- */
-export const cartItemsToSwitchOrderLineItems = (
-  item: CartItem,
-  sourceSubscriptionId: string
-): { lineItems: any[]; cancellingItems: any[] } => ({
-  lineItems: [
-    {
-      extLineItemNumber: 1,
-      offerId: item.offerId,
-      quantity: item.quantity,
-      ...(item.discountCode && { flexDiscountCodes: [item.discountCode] }),
-    },
-  ],
-  cancellingItems: [
-    {
-      extLineItemNumber: 2,
-      referenceLineItemNumber: 1,
-      subscriptionId: sourceSubscriptionId,
-      quantity: item.quantity,
-    },
-  ],
-});
-
-/**
  * Updates cart items using SKU-based mapping from order preview API
  * Uses pricing data directly from the API response:
  * - pricePerUnit: netPartnerPrice

@@ -67,8 +67,6 @@ export const ORDER_API_TYPE = {
   PREVIEW: 'Preview',
   PREVIEW_RENEWAL: 'PreviewRenewal',
   RENEWAL_ORDER: 'RenewalOrder',
-  PREVIEW_SWITCH: 'PREVIEW_SWITCH',
-  SWITCH: 'SWITCH',
 } as const;
 
 /**
@@ -90,11 +88,6 @@ export const SUBSCRIPTION_API_TYPE = {
  * CONSUMABLES: Tier-based discount levels (T1, T2, etc.)
  * UNKNOWN: Cannot determine offer type from offerId
  */
-export enum SwitchType {
-  FULL_ONLY = 'FULL_ONLY',
-  PARTIAL_ALLOWED = 'PARTIAL_ALLOWED',
-}
-
 export enum OfferType {
   LICENSE = 'LICENSE',
   CONSUMABLES = 'CONSUMABLES',
