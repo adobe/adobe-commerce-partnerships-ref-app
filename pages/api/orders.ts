@@ -12,10 +12,6 @@ import {
   createPreviewRenewalOrder,
   createRenewalOrder,
 } from '../../controllers/orderController';
-import {
-  createPreviewSwitchOrder,
-  createSwitchOrder,
-} from '../../controllers/switchOrderController';
 import { ApiError } from '../../utils/apiError';
 import { forwardRequestIdHeader, handlePrerequisites } from '../../utils/commonUtils';
 import { HTTP_METHOD, ORDER_API_TYPE } from '../../utils/constants';
@@ -121,36 +117,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
           currencyCode,
           lineItems,
           accessToken
-        );
-        statusCode = 201;
-        responseData = result.data;
-      } else if (type === ORDER_API_TYPE.PREVIEW_SWITCH) {
-        const { customerId, externalReferenceId, currencyCode, lineItems, cancellingItems } =
-          orderData;
-        const { type: _type, ...restQuery } = req.query;
-        result = await createPreviewSwitchOrder(
-          customerId,
-          currencyCode,
-          lineItems,
-          cancellingItems,
-          accessToken,
-          restQuery as Record<string, string>,
-          externalReferenceId
-        );
-        statusCode = 201;
-        responseData = result.data;
-      } else if (type === ORDER_API_TYPE.SWITCH) {
-        const { customerId, externalReferenceId, currencyCode, lineItems, cancellingItems } =
-          orderData;
-        const { type: _type, ...restQuery } = req.query;
-        result = await createSwitchOrder(
-          customerId,
-          currencyCode,
-          lineItems,
-          cancellingItems,
-          accessToken,
-          restQuery as Record<string, string>,
-          externalReferenceId
         );
         statusCode = 201;
         responseData = result.data;

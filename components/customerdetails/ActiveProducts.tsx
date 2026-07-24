@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { useRouter } from 'next/router';
-import { Button, Card, DialogTrigger, Heading } from '@react-spectrum/s2';
+import { Button, Card, Heading } from '@react-spectrum/s2';
 import ChevronDown from '@react-spectrum/s2/icons/ChevronDown';
 import ChevronUp from '@react-spectrum/s2/icons/ChevronUp';
 import { formatPrice, getSubscriptionStatusLabel } from '../../utils/commonUtils';
@@ -8,8 +7,6 @@ import { usePartnerDetails } from '../../contexts/PartnerContext';
 import { useCart } from '../../contexts/CartContext';
 import { ProductToDisplay } from '../../utils/productsPanelUtils';
 import { getIconWithFallback } from '../../utils/iconUtils';
-import { UpgradePathsDialog } from './UpgradePathsDialog';
-import { useOfferSwitchPaths } from '../../hooks/useOfferSwitchPaths';
 import styles from '../../styles/customerdetails/ActiveProducts.module.css';
 
 interface ActiveProductsProps {
@@ -27,15 +24,9 @@ export default function ActiveProducts({
   resellerId,
   marketSegment,
 }: ActiveProductsProps) {
-  const router = useRouter();
   const [isProductsExpanded, setIsProductsExpanded] = useState(true);
   const { regionCurrencies } = usePartnerDetails();
   const { addToCart, setShowCartModal, setCustomerInfoInCart } = useCart();
-
-  const { hasUpgradePath, getUpgradePathDetails } = useOfferSwitchPaths(
-    customerId,
-    products.map(p => p.id)
-  );
 
   function isDisabled(product: ProductToDisplay): boolean {
     if (!product.offerId) {
@@ -154,30 +145,6 @@ export default function ActiveProducts({
                         >
                           Add licenses
                         </Button>
-                        {hasUpgradePath(product.id) && (
-                          <DialogTrigger>
-                            <Button variant="primary" isDisabled={isDisabled(product)}>
-                              Upgrade
-                            </Button>
-                            <UpgradePathsDialog
-                              product={product}
-                              upgradePaths={getUpgradePathDetails(product.id)}
-                              onSelectUpgrade={(targetOfferId, switchType) => {
-                                const params = new URLSearchParams({
-                                  customerId: customerId || '',
-                                  resellerId: resellerId || '',
-                                  sourceOfferId: product.offerId || '',
-                                  sourceSubscriptionId: product.id,
-                                  sourceCurrency: product.currencyCode,
-                                  targetOfferId,
-                                  switchType,
-                                  quantity: String(product.currentQuantity || 0),
-                                });
-                                router.push(`/checkout/upgrade?${params.toString()}`);
-                              }}
-                            />
-                          </DialogTrigger>
-                        )}
                       </div>
                     </div>
                   </Card>

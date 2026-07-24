@@ -47,45 +47,6 @@ export function useCreateOrder() {
   });
 }
 
-async function postSwitchOrder(type: 'PREVIEW_SWITCH' | 'SWITCH', body: any) {
-  let url = `/api/orders?type=${type}`;
-  if (type === 'PREVIEW_SWITCH') url += '&fetch-price=true';
-
-  const response = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(body),
-  });
-
-  if (!response.ok) {
-    const text = await response.text();
-    let msg = `Request failed: ${response.status}`;
-    try {
-      const d = JSON.parse(text);
-      msg = JSON.stringify(d);
-    } catch {
-      msg = text || msg;
-    }
-    const err = new Error(msg) as any;
-    err.status = response.status;
-    throw err;
-  }
-
-  return response.json();
-}
-
-export function usePreviewSwitchOrder() {
-  return useMutation({
-    mutationFn: (body: any) => postSwitchOrder('PREVIEW_SWITCH', body),
-  });
-}
-
-export function usePlaceSwitchOrder() {
-  return useMutation({
-    mutationFn: (body: any) => postSwitchOrder('SWITCH', body),
-  });
-}
-
 /**
  * Hook for creating order previews
  */
