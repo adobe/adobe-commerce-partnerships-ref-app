@@ -6,12 +6,12 @@ import {
   initializeRenewalStates,
   calculateTotalLicenses,
   prepareRenewalData,
-  lateRenewalItemsToLineItems,
-  fetchLateRenewalOrderPreview,
+  renewalItemsToLineItems,
+  fetchRenewalOrderPreview,
   updateSubscriptionsWithPreview,
   placeRenewalOrder,
   formatRenewalWindowCloseDate,
-} from '../../../utils/lateRenewalUtils';
+} from '../../../utils/renewalOrderUtils';
 import {
   generateExternalReferenceId,
   getDiscountLevelsFromOfferIdsAndQuantities,
@@ -163,9 +163,9 @@ const LateRenewalOrderDialog: React.FC<LateRenewalOrderDialogProps> = ({
           return;
         }
 
-        const lineItems = lateRenewalItemsToLineItems(allRenewalData);
+        const lineItems = renewalItemsToLineItems(allRenewalData);
 
-        const previewData = await fetchLateRenewalOrderPreview(customerId, lineItems, currency);
+        const previewData = await fetchRenewalOrderPreview(customerId, lineItems, currency);
 
         if (previewData.lineItems && previewData.lineItems.length > 0) {
           const itemsForDiscountCalculation = previewData.lineItems.map(item => ({
@@ -307,7 +307,7 @@ const LateRenewalOrderDialog: React.FC<LateRenewalOrderDialogProps> = ({
     try {
       setIsRenewing(true);
 
-      const lineItems = lateRenewalItemsToLineItems(renewalData);
+      const lineItems = renewalItemsToLineItems(renewalData);
 
       const currencyCode = renewalData[0]?.currencyCode || '';
 
