@@ -16,7 +16,7 @@ import {
   modifyOfferIdForDiscountLevel,
   transformSubscriptionToProductDisplay,
 } from '../../utils/productsPanelUtils';
-import { calculateDaysUntilClose } from '../../utils/lateRenewalUtils';
+import { calculateDaysUntilClose } from '../../utils/renewalOrderUtils';
 import type { SubscriptionToRenew } from '../../types/lateRenewal';
 import { ErrorToast, SuccessToast } from '../../utils/ToastMessageUtils';
 import {

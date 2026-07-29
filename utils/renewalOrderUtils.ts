@@ -1,5 +1,6 @@
 /**
- * Utility functions for Late Renewal Order Dialog
+ * Utility functions for renewal order preview and submission, shared by the
+ * Late Renewal and Early Renewal order dialogs.
  */
 
 import { LineItem, Order } from '../models/Order';
@@ -117,11 +118,11 @@ export const prepareRenewalData = (
 };
 
 /**
- * Convert late renewal items to line items format for API calls
+ * Convert renewal items to line items format for API calls
  * @param renewalItems - Array of renewal items with subscriptionId, offerId and quantity
  * @returns Array of line items formatted for API submission
  */
-export const lateRenewalItemsToLineItems = (renewalItems: RenewalDataToSubmit[]): LineItem[] => {
+export const renewalItemsToLineItems = (renewalItems: RenewalDataToSubmit[]): LineItem[] => {
   return renewalItems.map((item, index) => ({
     extLineItemNumber: index + 1,
     offerId: item.offerId,
@@ -131,13 +132,13 @@ export const lateRenewalItemsToLineItems = (renewalItems: RenewalDataToSubmit[])
   }));
 };
 /**
- * Fetch late renewal order preview API
+ * Fetch renewal order preview API
  * @param customerId - Customer ID
  * @param lineItems - Line items with subscription details
  * @param currencyCode - Currency code
  * @returns Order preview response
  */
-export const fetchLateRenewalOrderPreview = async (
+export const fetchRenewalOrderPreview = async (
   customerId: string,
   lineItems: LineItem[],
   currencyCode: string
@@ -156,7 +157,7 @@ export const fetchLateRenewalOrderPreview = async (
   });
 
   if (!response.ok) {
-    let errorMessage = `Late renewal order preview API failed: ${response.status} ${response.statusText}`;
+    let errorMessage = `Renewal order preview API failed: ${response.status} ${response.statusText}`;
 
     try {
       const errorData = await response.json();
@@ -175,7 +176,7 @@ export const fetchLateRenewalOrderPreview = async (
   const data = await response.json();
 
   if (!data.lineItems || data.lineItems.length === 0) {
-    throw new Error('No line items returned from late renewal order preview API');
+    throw new Error('No line items returned from renewal order preview API');
   }
 
   return data;
