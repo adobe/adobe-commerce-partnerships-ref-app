@@ -169,6 +169,7 @@ const OrdersHistoryOrderSchema = z
     source: z.string().optional(),
     lineItems: z.array(LineItemSchema),
     creationDate: z.string().optional(),
+    pricingSummary: z.array(PricingSummarySchema).optional(),
     links: z
       .object({
         self: LinkSchema.optional(),

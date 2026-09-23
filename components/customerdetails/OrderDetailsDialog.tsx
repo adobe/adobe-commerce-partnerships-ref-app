@@ -3,6 +3,7 @@ import { Badge, Button, Card, Heading } from '@react-spectrum/s2';
 import promoStyles from '../../styles/PromoCode.module.css';
 import { useProductNamesFromPricelist } from '../../hooks/useProductPricing';
 import { usePartnerDetails } from '../../contexts/PartnerContext';
+import { formatPrice } from '../../utils/commonUtils';
 import { OrdersHistoryOrder, LineItem } from '../../models/Order';
 import styles from '../../styles/customerdetails/OrderDetailsDialog.module.css';
 
@@ -65,6 +66,12 @@ const OrderDetailsDialog: React.FC<OrderDetailsDialogProps> = ({ isOpen, onClose
     return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
   };
 
+  // Format a pricing field, falling back to 'N/A' when the value is unavailable
+  const formatPricingField = (value: number | undefined, currencyCode?: string): string => {
+    if (value === undefined) return 'N/A';
+    return formatPrice(value, currencyCode || '');
+  };
+
   return (
     <div className={styles.overlay} onClick={onClose} role="presentation">
       <div
@@ -109,10 +116,27 @@ const OrderDetailsDialog: React.FC<OrderDetailsDialogProps> = ({ isOpen, onClose
                       <Heading level={3}>{productName}</Heading>
                       <div className={styles.productDetails}>
                         <div className={styles.productInfo}>
-                          <span className={styles.quantity}>{item.quantity} licenses</span>
+                          <div className={styles.leftCol}>
+                            <span className={styles.quantity}>{item.quantity} licenses</span>
+                            <span className={styles.offerId}>{item.offerId}</span>
+                          </div>
+                          <div className={styles.rightCol}>
+                            <span className={styles.lineItemTotal}>
+                              {formatPricingField(
+                                item.pricing?.lineItemPartnerPrice,
+                                item.currencyCode || orderData.currencyCode
+                              )}
+                            </span>
+                            <span className={styles.perLicense}>
+                              {formatPricingField(
+                                item.pricing?.netPartnerPrice,
+                                item.currencyCode || orderData.currencyCode
+                              )}{' '}
+                              per license
+                            </span>
+                          </div>
                         </div>
                       </div>
-                      <div className={styles.offerId}>{item.offerId}</div>
                       {item.flexDiscounts && item.flexDiscounts.length > 0 && (
                         <div>
                           {item.flexDiscounts.map(discount => (
@@ -138,6 +162,18 @@ const OrderDetailsDialog: React.FC<OrderDetailsDialogProps> = ({ isOpen, onClose
                   );
                 })}
               </div>
+
+              {orderData.pricingSummary && orderData.pricingSummary.length > 0 && (
+                <div className={styles.orderTotal}>
+                  <span className={styles.orderTotalLabel}>Order total</span>
+                  <span className={styles.orderTotalValue}>
+                    {formatPricingField(
+                      orderData.pricingSummary[0].totalLineItemPartnerPrice,
+                      orderData.pricingSummary[0].currencyCode || orderData.currencyCode
+                    )}
+                  </span>
+                </div>
+              )}
             </>
           ) : (
             <div className={styles.errorContainer}>

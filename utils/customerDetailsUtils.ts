@@ -176,6 +176,34 @@ export const formatDate = (dateString: string): string => {
   }
 };
 
+/** Number of days an order remains eligible for return after creation. */
+export const RETURN_WINDOW_DAYS = 14;
+
+/**
+ * Checks whether an order is still within the return window (not older than RETURN_WINDOW_DAYS).
+ * @param creationDate - The order's creation date string
+ * @returns Boolean indicating whether the order can still be returned based on its age
+ */
+export const isOrderWithinReturnWindow = (creationDate?: string): boolean => {
+  if (!creationDate) return false;
+
+  const created = new Date(creationDate);
+  if (isNaN(created.getTime())) return false;
+
+  // Normalize both dates to UTC midnight so the window is measured in whole
+  // calendar days (UTC), independent of time-of-day and the local timezone.
+  const createdUTC = Date.UTC(
+    created.getUTCFullYear(),
+    created.getUTCMonth(),
+    created.getUTCDate()
+  );
+  const now = new Date();
+  const todayUTC = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
+
+  const ageInDays = (todayUTC - createdUTC) / (1000 * 60 * 60 * 24);
+  return ageInDays <= RETURN_WINDOW_DAYS;
+};
+
 /**
  * Checks if customer has a pending 3YC commitment request
  * Returns true if customer has a THREE_YEAR_COMMIT benefit with REQUESTED status

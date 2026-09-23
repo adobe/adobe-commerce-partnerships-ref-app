@@ -22,6 +22,21 @@ export interface OrderPreviewRequest {
   lineItems: OrderLineItem[];
 }
 
+export interface ReturnOrderLineItem {
+  extLineItemNumber: number;
+  offerId: string;
+  quantity: number;
+  currencyCode?: string;
+}
+
+export interface ReturnOrderRequest {
+  customerId: string;
+  referenceOrderId?: string;
+  externalReferenceId: string;
+  currencyCode?: string;
+  lineItems: ReturnOrderLineItem[];
+}
+
 export interface OrderResponse {
   orderId: string;
   status: string;

@@ -91,7 +91,7 @@
 /* ===== TABLE HEADER ===== */
 .tableHeader {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 0.8fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 0.8fr 1fr 136px;
   background-color: #f9fafb;
   border-bottom: 1px solid #e5e7eb;
   padding: 12px 16px;
@@ -110,7 +110,7 @@
 /* ===== TABLE ROW ===== */
 .tableRow {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 0.8fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 0.8fr 1fr 136px;
   padding: 16px;
   border-bottom: 1px solid #f3f4f6;
   align-items: center;
@@ -193,6 +193,10 @@
 
 .actionButton:hover {
   background: #1d4ed8;
+}
+
+.returnButton {
+  min-width: 120px;
 }
 
 /* ===== PAGINATION CONTAINER ===== */
