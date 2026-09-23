@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { Button, Link } from '@react-spectrum/s2';
+import Undo from '@react-spectrum/s2/icons/Undo';
 import { OrdersHistoryOrder } from '../../models/Order';
-import { formatDate } from '../../utils/customerDetailsUtils';
+import { formatDate, isOrderWithinReturnWindow } from '../../utils/customerDetailsUtils';
 import { getOrderStatusText, getOrderTypeText } from '../../utils/commonUtils';
 import OrderDetailsDialog from './OrderDetailsDialog';
+import ReturnOrderDialog from './ReturnOrderDialog';
 import styles from '../../styles/customerdetails/PurchaseHistory.module.css';
 import { ORDER_API_TYPE } from '../../utils/constants';
 
@@ -32,6 +34,8 @@ export default function PurchaseHistoryPanel({ customerId }: PurchaseHistoryProp
   const [pageSize] = useState(10);
   const [isOrderDialogOpen, setIsOrderDialogOpen] = useState(false);
   const [selectedOrder, setSelectedOrder] = useState<OrdersHistoryOrder | null>(null);
+  const [isReturnDialogOpen, setIsReturnDialogOpen] = useState(false);
+  const [selectedReturnOrder, setSelectedReturnOrder] = useState<OrdersHistoryOrder | null>(null);
 
   // Handle page changes
   const handlePageChange = React.useCallback((page: number) => {
@@ -88,6 +92,7 @@ export default function PurchaseHistoryPanel({ customerId }: PurchaseHistoryProp
               <div>Date</div>
               <div>Source</div>
               <div>Status</div>
+              <div></div>
             </div>
 
             {/* Table Rows */}
@@ -129,6 +134,28 @@ export default function PurchaseHistoryPanel({ customerId }: PurchaseHistoryProp
                     >
                       {getOrderStatusText(order.status)}
                     </span>
+                  </div>
+
+                  {/* Actions Column */}
+                  <div>
+                    {order.status === '1000' &&
+                      order.orderType !== 'RETURN' &&
+                      order.orderType !== 'SWITCH' &&
+                      order.orderType !== 'REVERT_SWITCH' &&
+                      isOrderWithinReturnWindow(order.creationDate) && (
+                        <Button
+                          variant="secondary"
+                          size="S"
+                          UNSAFE_className={styles.returnButton}
+                          onPress={() => {
+                            setSelectedReturnOrder(order);
+                            setIsReturnDialogOpen(true);
+                          }}
+                        >
+                          <Undo />
+                          Return items
+                        </Button>
+                      )}
                   </div>
                 </div>
               ))}
@@ -188,6 +215,17 @@ export default function PurchaseHistoryPanel({ customerId }: PurchaseHistoryProp
           setSelectedOrder(null);
         }}
         orderData={selectedOrder}
+      />
+
+      {/* Return Order Dialog */}
+      <ReturnOrderDialog
+        isOpen={isReturnDialogOpen}
+        onClose={() => {
+          setIsReturnDialogOpen(false);
+          setSelectedReturnOrder(null);
+        }}
+        orderData={selectedReturnOrder}
+        customerId={customerId}
       />
     </div>
   );

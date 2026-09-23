@@ -375,7 +375,7 @@ export async function getOrdersHistoryForCustomer(
   if (!access_token) throw new ApiError('Missing ACCESS_TOKEN', 500);
   if (!apiKey) throw new ApiError('Missing ADOBE_API_KEY', 500);
 
-  const url = `${ordersUrl(customerId)}?offset=${offset}&limit=${limit}`;
+  const url = `${ordersUrl(customerId)}?offset=${offset}&limit=${limit}&fetch-price=true`;
 
   const result = await fetch(url, {
     method: 'GET',

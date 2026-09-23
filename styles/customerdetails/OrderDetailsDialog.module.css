@@ -171,8 +171,22 @@
 
 .productInfo {
   display: flex;
-  align-items: center;
-  gap: 8px;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.leftCol {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.rightCol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
 }
 
 .quantity {
@@ -188,7 +202,6 @@
 }
 
 .offerId {
-  height: 18px;
   opacity: 1;
   font-family: inherit;
   font-weight: 400;
@@ -197,6 +210,47 @@
   line-height: 150%;
   letter-spacing: normal;
   color: var(--Alias-content-neutral-subdued-default, #505050);
+}
+
+.lineItemTotal {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--Palette-black, #000000);
+}
+
+.perLicense {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: var(--Alias-content-neutral-subdued-default, #505050);
+}
+
+.orderTotal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  margin-top: 8px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.orderTotalLabel {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  color: var(--Palette-black, #000000);
+}
+
+.orderTotalValue {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--Palette-black, #000000);
 }
 
 .errorContainer {
