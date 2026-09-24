@@ -9,6 +9,7 @@ import { useToastState } from '../../hooks/useToastState';
 import { getIconWithFallback } from '../../utils/iconUtils';
 import { generateExternalReferenceId } from '../../utils/commonUtils';
 import { ErrorToast, SuccessToast } from '../../utils/ToastMessageUtils';
+import { buildReturnErrorMessage } from '../../utils/returnOrderUtils';
 import styles from '../../styles/customerdetails/ReturnOrderDialog.module.css';
 
 interface ReturnOrderDialogProps {
@@ -126,7 +127,7 @@ const ReturnOrderDialog: React.FC<ReturnOrderDialogProps> = ({
           }, 1500);
         },
         onError: (err: Error) => {
-          showError(err.message || 'Failed to create return order');
+          showError(buildReturnErrorMessage(err as Error & { additionalDetails?: string[] }));
         },
       }
     );

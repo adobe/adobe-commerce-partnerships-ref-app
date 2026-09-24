@@ -66,16 +66,22 @@ export function useReturnOrder() {
       if (!response.ok) {
         const errorText = await response.text();
         let errorMessage = `Request failed with status ${response.status}`;
+        let code: string | undefined;
+        let additionalDetails: string[] | undefined;
 
         try {
           const errorData = JSON.parse(errorText);
-          errorMessage = errorData.error || errorMessage;
+          errorMessage = errorData.message || errorData.error || errorMessage;
+          code = errorData.code;
+          additionalDetails = errorData.additionalDetails;
         } catch {
           errorMessage = errorText || errorMessage;
         }
 
         const error = new Error(errorMessage) as any;
         error.status = response.status;
+        error.code = code;
+        error.additionalDetails = additionalDetails;
         throw error;
       }
 
